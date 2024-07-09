@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>TANGELO.kml</name>
+	<Schema name="VARIEDADES" id="S_VARIEDADES_ISI">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Variedad"><displayName>&lt;b&gt;Variedad&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle8">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="pointStyleMap11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle2">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Document>
+		<name>TANGELO ORLANDO.kml</name>
+		<Schema name="VARIEDADES" id="S_VARIEDADES_ISI0">
+			<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Variedad"><displayName>&lt;b&gt;Variedad&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="pointStyleMap110">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle80</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle20</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="normPointStyle80">
+			<IconStyle>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>fcffffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle>
+				<color>ff00ab00</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>64005500</color>
+			</PolyStyle>
+		</Style>
+		<Style id="hlightPointStyle20">
+			<IconStyle>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>fcffffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle>
+				<color>ff00ab00</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>64005500</color>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<name>TANGELO ORLANDO</name>
+			<styleUrl>#pointStyleMap110</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_VARIEDADES_ISI0">
+					<SimpleData name="id_2">26</SimpleData>
+					<SimpleData name="Variedad">TANGELO ORLANDO</SimpleData>
+					<SimpleData name="AREA">2022</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.93078678038182,4.170841613461662,0 -74.93093560559127,4.170592787123328,0 -74.93045265896299,4.17032631352698,0 -74.93030206902773,4.170588669429822,0 -74.93078678038182,4.170841613461662,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+	<Placemark>
+		<name>TANGELO</name>
+		<styleUrl>#pointStyleMap11</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">25</SimpleData>
+				<SimpleData name="Variedad">TANGELO</SimpleData>
+				<SimpleData name="AREA">1501</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.92980323986721,4.170191017882012,0 -74.93035736376957,4.170494550720276,0 -74.93045265896299,4.17032866649468,0 -74.92990515278235,4.170027045442746,0 -74.92980323986721,4.170191017882012,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Tangelo</name>
+		<LookAt>
+			<longitude>-74.93050361872197</longitude>
+			<latitude>4.169809338736088</latitude>
+			<altitude>0</altitude>
+			<heading>0.0001604634919542957</heading>
+			<tilt>45.00001678175031</tilt>
+			<range>518.4281300739618</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.9304381237486,4.170411168710595,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

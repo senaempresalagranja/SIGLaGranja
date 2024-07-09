@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>UVA.shp</name>
+	<Schema name="VARIEDADES" id="S_VARIEDADES_ISI1">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Variedad"><displayName>&lt;b&gt;Variedad&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="UVA" id="S_UVA_II">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="pointStyleMap117">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle87</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-diamond">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle87">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="pointStyleMap116">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle86</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle26</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle86">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle26">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_wht-diamond">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="hlightPointStyle27">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>RED GLOBE</name>
+		<styleUrl>#pointStyleMap116</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI1">
+				<SimpleData name="id_2">42</SimpleData>
+				<SimpleData name="Variedad">RED GLOBE</SimpleData>
+				<SimpleData name="AREA">2057</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93247398896473,4.169209695082952,0 -74.93234869317317,4.169138517661435,0 -74.93235928154992,4.169114987935347,0 -74.9320281006548,4.168937926746277,0 -74.93190868729477,4.169246754401565,0 -74.93236457573831,4.169487934094303,0 -74.93247398896473,4.169209695082952,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>PLATANO</name>
+		<styleUrl>#pointStyleMap116</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI1">
+				<SimpleData name="id_2">43</SimpleData>
+				<SimpleData name="Variedad">PLATANO</SimpleData>
+				<SimpleData name="AREA">516</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.9323333988512,4.169017192511149,0 -74.93231869277234,4.168974839004127,0 -74.93225663311972,4.168901308609994,0 -74.9320716306481,4.168808219131068,0 -74.93201898288594,4.168932926679476,0 -74.93229678071489,4.169081752197186,0 -74.9323333988512,4.169017192511149,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Folder id="layer 0">
+		<name>UVA</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap117</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_UVA_II">
+					<SimpleData name="id_2">0</SimpleData>
+					<SimpleData name="AREA">3893</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.93234212627948,4.169551741398103,0 -74.93248606163104,4.169544940536469,0 -74.93262355871507,4.1692110512624,0 -74.93249877160676,4.169156085740666,0 -74.93240514700447,4.169082863723257,0 -74.93233961759623,4.168978312640386,0 -74.9322930698718,4.168880562419148,0 -74.93207895033957,4.168782812197871,0 -74.93188344989707,4.169262253759243,0 -74.93234212627948,4.169551741398103,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Uva</name>
+		<LookAt>
+			<longitude>-74.93054402187153</longitude>
+			<latitude>4.16892050419594</latitude>
+			<altitude>0</altitude>
+			<heading>4.476589488903889e-005</heading>
+			<tilt>44.99999349668098</tilt>
+			<range>1004.763656192895</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_wht-diamond</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.93219913021676,4.169019854971555,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

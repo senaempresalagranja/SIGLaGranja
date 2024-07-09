@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ZONAS VERDES C.shp</name>
+	<visibility>0</visibility>
+	<Schema name="ZONAS VERDES C" id="S_ZONAS_VERDES_C_IS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor48">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor4812</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor4813</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="falseColor4813">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[PTAR/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[PTAR/area]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b400ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor4812">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[PTAR/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[PTAR/area]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b400ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>ZONAS VERDES C</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_C_IS">
+					<SimpleData name="id_2">1</SimpleData>
+					<SimpleData name="AREA"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92886914159342,4.17289412412829,0 -74.9285673706398,4.172881931362533,0 -74.92855822606543,4.173142551731539,0 -74.92879903319006,4.173148648114458,0 -74.92886914159342,4.17289412412829,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_C_IS">
+					<SimpleData name="id_2">2</SimpleData>
+					<SimpleData name="AREA"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92842562973732,4.173122738487134,0 -74.92841191287579,4.173330015505803,0 -74.92854146101244,4.173339160080141,0 -74.9285445092039,4.173122738487134,0 -74.92842562973732,4.173122738487134,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>ZonaC</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>-74.92747691422311</longitude>
+			<latitude>4.17332495273953</latitude>
+			<altitude>0</altitude>
+			<heading>-5.368061650160475e-006</heading>
+			<tilt>40.72216161305804</tilt>
+			<range>340.8126056179984</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.92859198776097,4.173124467828906,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

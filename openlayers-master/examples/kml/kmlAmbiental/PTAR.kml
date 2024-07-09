@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PTAR.shp</name>
+	<Schema name="PTAR" id="S_PTAR_IS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="area"><displayName>&lt;b&gt;area&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor480">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[PTAR/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[PTAR/area]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b400ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="falseColor481">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[PTAR/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[PTAR/area]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b400ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor48">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor480</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor481</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>PTAR</name>
+		<Placemark>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PTAR_IS">
+					<SimpleData name="id_2">0</SimpleData>
+					<SimpleData name="area">3972</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92581667097424,4.174483057294651,0 -74.92564972997222,4.174871486155047,0 -74.92552233447015,4.175205726670952,0 -74.92562548733616,4.175166781830839,0 -74.92648419350722,4.174774693352754,0 -74.9264825733069,4.174709885339838,0 -74.92647933290625,4.17463211572437,0 -74.92646313090303,4.174578649113712,0 -74.92644530869946,4.174562447110493,0 -74.92641128449272,4.17464021672596,0 -74.92582477197588,4.174484677494985,0 -74.92581667097424,4.174483057294651,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Ptar</name>
+		<LookAt>
+			<longitude>-74.9258791772273</longitude>
+			<latitude>4.175499412461305</latitude>
+			<altitude>0</altitude>
+			<heading>0.0001294234062849829</heading>
+			<tilt>44.99997877483014</tilt>
+			<range>464.2362908862566</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.92596980967031,4.174658753695764,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

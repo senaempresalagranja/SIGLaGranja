@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ZONAS VERDES E.shp</name>
+	<visibility>0</visibility>
+	<Schema name="ZONAS VERDES E" id="S_ZONAS_VERDES_E_IS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="falseColor484">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[PTAR/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[PTAR/area]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b400ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor48">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor484</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor485</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor485">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[PTAR/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[PTAR/area]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b400ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>ZONAS VERDES E</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_E_IS">
+					<SimpleData name="id_2">1</SimpleData>
+					<SimpleData name="AREA"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92798973835984,4.17354491300308,0 -74.92807813591192,4.17354643709881,0 -74.92807508772046,4.173522051567216,0 -74.92797449740259,4.173525099758635,0 -74.92796992511542,4.173596732257767,0 -74.92799126245558,4.173602828640646,0 -74.92798973835984,4.17354491300308,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_E_IS">
+					<SimpleData name="id_2">2</SimpleData>
+					<SimpleData name="AREA"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92790896128639,4.173647027416685,0 -74.92787695527613,4.173797912893478,0 -74.92848354537489,4.173999093529268,0 -74.92848811766206,4.173973183901905,0 -74.92789981671201,4.173782671936221,0 -74.9279348709137,4.173657696086752,0 -74.92790896128639,4.173647027416685,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>ZonaE</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>-74.92717668303079</longitude>
+			<latitude>4.174208374337674</latitude>
+			<altitude>0</altitude>
+			<heading>2.607508017980749e-005</heading>
+			<tilt>45.0000006924116</tilt>
+			<range>434.9804398618348</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.92806504887636,4.173837250181561,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

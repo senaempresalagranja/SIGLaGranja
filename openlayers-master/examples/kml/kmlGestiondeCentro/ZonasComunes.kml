@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ZonasComunes.kml</name>
+	<Schema name="infraestructura pecuaria" id="S_infraestructura_pecuaria_ISS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="area"><displayName>&lt;b&gt;area&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Nombre"><displayName>&lt;b&gt;Nombre&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="Areas 1" id="S_Areas_1_IDS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Nombre"><displayName>&lt;b&gt;Nombre&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="Areas 1" id="S_Areas_1_IDS0">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Nombre"><displayName>&lt;b&gt;Nombre&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor13">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Areas 1/id_2]</td></tr>
+  <tr><td><b>Area</b></td><td>$[Areas 1/Area]</td></tr>
+  <tr><td><b>Nombre</b></td><td>$[Areas 1/Nombre]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff3f7f7f</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>cc05b4ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor16">
+		<IconStyle>
+			<scale>0.816667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Areas 1/id_2]</td></tr>
+  <tr><td><b>Area</b></td><td>$[Areas 1/Area]</td></tr>
+  <tr><td><b>Nombre</b></td><td>$[Areas 1/Nombre]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff3f7f7f</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>cc05b4ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor12">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Areas 1/id_2]</td></tr>
+  <tr><td><b>Area</b></td><td>$[Areas 1/Area]</td></tr>
+  <tr><td><b>Nombre</b></td><td>$[Areas 1/Nombre]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff3f7f7f</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>cc05b4ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor14">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Areas 1/id_2]</td></tr>
+  <tr><td><b>Area</b></td><td>$[Areas 1/Area]</td></tr>
+  <tr><td><b>Nombre</b></td><td>$[Areas 1/Nombre]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff3f7f7f</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>cc05b4ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>ZonasComunes</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#falseColor17</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Areas_1_IDS">
+					<SimpleData name="id_2">22</SimpleData>
+					<SimpleData name="Area">0.0124</SimpleData>
+					<SimpleData name="Nombre">Ba�os</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92877506087116,4.17082969834353,0 -74.92868241257459,4.170832639559321,0 -74.92868623615509,4.170938817448402,0 -74.92877947269481,4.170936758597392,0 -74.92877506087116,4.17082969834353,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor17</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Areas_1_IDS0">
+					<SimpleData name="id_2">24</SimpleData>
+					<SimpleData name="Area">0.0704</SimpleData>
+					<SimpleData name="Nombre">Tecnoparque</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.93023140385699,4.172085597475022,0 -74.93010669630858,4.17227707062128,0 -74.93013522610148,4.172294717915905,0 -74.93011169637538,4.172332953720828,0 -74.93020699176616,4.17239648398136,0 -74.93023434507278,4.172355601082214,0 -74.93029228702334,4.172391483914519,0 -74.93032758161252,4.172342659732822,0 -74.93034934660918,4.172354718717473,0 -74.93038464119834,4.172300012104233,0 -74.93036434680958,4.172285894268573,0 -74.93041522984231,4.172207363807678,0 -74.93023140385699,4.172085597475022,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Folder id="layer 0">
+			<name>infraestructura pecuaria</name>
+			<Placemark>
+				<name>Casino</name>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">1582.0284345289</SimpleData>
+						<SimpleData name="Nombre">Casino</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92796312119548,4.171818002890451,0 -74.9275685151387,4.171728416650544,0 -74.92755785011016,4.171730549656276,0 -74.92754078606447,4.171813736879027,0 -74.92751945600732,4.171809470867642,0 -74.92750879097876,4.171852130981844,0 -74.9275343870473,4.171862796010424,0 -74.92749172693308,4.172033436467388,0 -74.92789486501266,4.172112357678754,0 -74.92796312119548,4.171818002890451,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">63.2020608425468</SimpleData>
+						<SimpleData name="Nombre"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.9282468109552,4.172044101495929,0 -74.92832999817796,4.172101692650174,0 -74.92835772725222,4.172056899530201,0 -74.92827667303516,4.17200357438742,0 -74.9282468109552,4.172044101495929,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">253.630284351455</SimpleData>
+						<SimpleData name="Nombre">Panificacion</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92750150370344,4.172768260112481,0 -74.92750106996738,4.172870062674301,0 -74.92769943949857,4.172878594697109,0 -74.92770370551001,4.172776210422931,0 -74.92750150370344,4.172768260112481,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">124.16552165213</SimpleData>
+						<SimpleData name="Nombre"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.9279033405748,4.172643147560482,0 -74.9278147799761,4.172634191994313,0 -74.92780681947285,4.172751609417298,0 -74.92789239488282,4.172754594606034,0 -74.9279033405748,4.172643147560482,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">41.9385303532291</SimpleData>
+						<SimpleData name="Nombre"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92746750302165,4.172676979699292,0 -74.92754810311709,4.172676979699292,0 -74.92754611299127,4.172635187057225,0 -74.92746849808454,4.172633196931401,0 -74.92746750302165,4.172676979699292,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">233.909049259297</SimpleData>
+						<SimpleData name="Nombre"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92742372025374,4.172877982406491,0 -74.92742372025374,4.172877982406491,0 -74.92741974000211,4.173024256653766,0 -74.92755009324289,4.17302624677959,0 -74.92755307843163,4.172881962658099,0 -74.92742372025374,4.172877982406491,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">147.570796446113</SimpleData>
+						<SimpleData name="Nombre"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92678090961599,4.173412331187394,0 -74.92678090961599,4.173541689365283,0 -74.92687245540341,4.173545669616932,0 -74.92687345046632,4.173416311439042,0 -74.92678090961599,4.173412331187394,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Ambiente de guadua</name>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">1108.98928395105</SimpleData>
+						<SimpleData name="Nombre">Ambiente abierto</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92849791765354,4.173937108137729,0 -74.92849769888014,4.173934975131997,0 -74.92869956864513,4.173968009356193,0 -74.92876607464045,4.173527407137403,0 -74.92856644726787,4.173502358002437,0 -74.92849791765354,4.173937108137729,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Cabaña</name>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">249.645111385284</SimpleData>
+						<SimpleData name="Nombre">Caba�a 1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.9282880627993,4.173976322605641,0 -74.92825065317693,4.174080238223272,0 -74.92841691816517,4.174142587593859,0 -74.92845432778751,4.174030358726819,0 -74.9282880627993,4.173976322605641,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Cabaña</name>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">254.140625988925</SimpleData>
+						<SimpleData name="Nombre">Caba�a 2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92847095428633,4.174155057467952,0 -74.92862890602514,4.17420909358917,0 -74.92867047227222,4.17409686472209,0 -74.92850836390869,4.174038671976188,0 -74.92847095428633,4.174155057467952,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Cabaña</name>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">272.874637057736</SimpleData>
+						<SimpleData name="Nombre">Caba�a 3</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92840860491576,4.174325479080894,0 -74.92858733977809,4.174379515202071,0 -74.92862059277574,4.174258973085623,0 -74.9284418579134,4.174217406838539,0 -74.92840860491576,4.174325479080894,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Cabaña</name>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">183.379944109968</SimpleData>
+						<SimpleData name="Nombre">Caba�a Inst</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92784330395577,4.173988792479735,0 -74.92781005095813,4.174092708097406,0 -74.927938906324,4.174138430969134,0 -74.92796800269693,4.174030358726819,0 -74.92784330395577,4.173988792479735,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Ambientes H</name>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">330.790136148429</SimpleData>
+						<SimpleData name="Nombre"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.927938906324,4.174159214092676,0 -74.92790980995108,4.174242346586805,0 -74.92818830380632,4.174333792330303,0 -74.928221556804,4.17424650321149,0 -74.927938906324,4.174159214092676,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">179.432104624523</SimpleData>
+						<SimpleData name="Nombre">Gym antiguo</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92832131579694,4.173889033486788,0 -74.92841691816517,4.173922286484424,0 -74.92846072680464,4.173780961244473,0 -74.9283670386687,4.173751864871522,0 -74.928362882044,4.17376849137034,0 -74.92832131579694,4.173889033486788,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">741.783507178294</SimpleData>
+						<SimpleData name="Nombre">Internado Dormitorio</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92794711018669,4.173618634107501,0 -74.92793420276573,4.173661294221742,0 -74.92790565332636,4.173776804619749,0 -74.92822987005341,4.173868250363286,0 -74.92828412494801,4.173882853243112,0 -74.92831737794566,4.173762092353184,0 -74.92827143630046,4.173747708246838,0 -74.92827143630046,4.173726925123296,0 -74.92794711018669,4.173618634107501,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">588.914174090283</SimpleData>
+						<SimpleData name="Nombre">Internado Dormitorio</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92811348456165,4.173685358876211,0 -74.92847926753576,4.173677045626802,0 -74.92847959569592,4.173550323266637,0 -74.92811348456165,4.17355234688563,0 -74.92811348456165,4.173685358876211,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">149.015531709677</SimpleData>
+						<SimpleData name="Nombre">Enfermeria</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92798878582048,4.173544033636221,0 -74.92800956894399,4.173643792629167,0 -74.92807607493928,4.17365626250326,0 -74.92811764118635,4.173672889002118,0 -74.92810932793695,4.17355234688563,0 -74.92798878582048,4.173544033636221,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">448.868539428988</SimpleData>
+						<SimpleData name="Nombre">Tanques</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92832962904635,4.173307106028008,0 -74.92813011106047,4.173311262652693,0 -74.92816752068281,4.173498310764492,0 -74.92835041216988,4.173498310764492,0 -74.92832962904635,4.173307106028008,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">539.32756322796</SimpleData>
+						<SimpleData name="Nombre"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92839197841694,4.173490106901783,0 -74.92870137349073,4.173492239907475,0 -74.9287033971097,4.173346429882621,0 -74.92839197841694,4.173348672275052,0 -74.92839197841694,4.173490106901783,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">524.950651121987</SimpleData>
+						<SimpleData name="Nombre"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92841669939173,4.173140731653051,0 -74.92810517131224,4.173140841039791,0 -74.92810101468754,4.173273853030373,0 -74.92841659000501,4.173277900268357,0 -74.92841669939173,4.173140731653051,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">416.030221104033</SimpleData>
+						<SimpleData name="Nombre"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92854823469692,4.173147240056907,0 -74.92854900040393,4.173280580207668,0 -74.9287974134058,4.173278009655057,0 -74.9288034842628,4.173144669504336,0 -74.92854823469692,4.173147240056907,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">487.299483607219</SimpleData>
+						<SimpleData name="Nombre"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92830468929812,4.173078491669164,0 -74.92857071327927,4.173090961543298,0 -74.92855824340516,4.172941323053898,0 -74.92830468929812,4.17292469655508,0 -74.92830468929812,4.173078491669164,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">476.594636313026</SimpleData>
+						<SimpleData name="Nombre"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92856240002985,4.172887286932721,0 -74.92890739988043,4.172891443557445,0 -74.92889908663102,4.172779214690365,0 -74.92855824340516,4.172775058065681,0 -74.92856240002985,4.172887286932721,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">6832.6859440036</SimpleData>
+						<SimpleData name="Nombre">Cancha Futbol</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92952841877325,4.172957246814049,0 -74.92952841877325,4.172955113808357,0 -74.92892691116241,4.172882591614107,0 -74.92880319683111,4.173791252047523,0 -74.92941110345906,4.173844577190304,0 -74.92952841877325,4.172957246814049,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">554.724454203579</SimpleData>
+						<SimpleData name="Nombre">Futbol Sala</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.9292063349107,4.172562640757338,0 -74.9292063349107,4.172562640757338,0 -74.92904635948229,4.172545576711602,0 -74.92900796537948,4.172814335431361,0 -74.92917007381359,4.172839931499865,0 -74.9292063349107,4.172562640757338,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">377.296382648213</SimpleData>
+						<SimpleData name="Nombre">voleibol</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92938764039624,4.172882591614107,0 -74.92941110345909,4.172665025031517,0 -74.92927245808779,4.172641561968664,0 -74.92925326103637,4.172863394562758,0 -74.92938764039624,4.172882591614107,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">420.680704872952</SimpleData>
+						<SimpleData name="Nombre">Administrativo</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92823155130023,4.172426128391726,0 -74.92822515228311,4.172547709717334,0 -74.92851097504854,4.17255410873445,0 -74.92850884204282,4.172434660414575,0 -74.92823155130023,4.172426128391726,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">971.402375977942</SimpleData>
+						<SimpleData name="Nombre">Antiguo Casino</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92854936915136,4.17264796098578,0 -74.92893970919668,4.172656493008629,0 -74.92893757619096,4.172458123477427,0 -74.92892904416814,4.172458123477427,0 -74.92892904416814,4.172458123477427,0 -74.92854936915136,4.172443192437423,0 -74.92854936915136,4.17264796098578,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">78.5940209810882</SimpleData>
+						<SimpleData name="Nombre">Ba�os</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.9281547630946,4.173027636002566,0 -74.92822728528883,4.173029769008299,0 -74.92822728528883,4.172940182768352,0 -74.9281547630946,4.172942315774084,0 -74.9281547630946,4.173027636002566,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+						<SimpleData name="id_2">0</SimpleData>
+						<SimpleData name="area">116.339931008264</SimpleData>
+						<SimpleData name="Nombre">quiosco</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92810357095752,4.172650093991512,0 -74.92808863991753,4.172658626014361,0 -74.92807370887755,4.172675690060057,0 -74.9280694428661,4.172697020117178,0 -74.9280694428661,4.172714084162874,0 -74.92807584188326,4.172733281214263,0 -74.92808863991753,4.172750345259959,0 -74.92810570396323,4.172754611271423,0 -74.92812276800892,4.172756744277115,0 -74.9281547630946,4.172743946242843,0 -74.92817396014598,4.172718350174298,0 -74.92817609315175,4.172705552140026,0 -74.92817396014598,4.172684222082905,0 -74.92816542812317,4.172662892025785,0 -74.92814836407746,4.172645827980088,0 -74.92813343303749,4.172645827980088,0 -74.92811210298036,4.17264796098578,0 -74.92810357095752,4.172650093991512,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>PUNTOS DE ENCUENTRO</name>
+			<open>1</open>
+			<description>Sitios establecidos para posibles emergencias</description>
+			<Placemark>
+				<name>CANCHA DE FUTBOL</name>
+				<description>PUNTO DE ENCUENTRO PARA:
+
+Biotecnología Vegetal
+Biotecnologia Animal
+Nanotecnología
+Invernadero
+Ambientes Sena Empresa,
+Capellanía 
+Mantenimiento</description>
+				<LookAt>
+					<longitude>-74.92913717050666</longitude>
+					<latitude>4.173051224879146</latitude>
+					<altitude>0</altitude>
+					<heading>-35.50907976940927</heading>
+					<tilt>8.165687749376122</tilt>
+					<range>189.0907586925262</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#falseColor15</styleUrl>
+				<Point>
+					<coordinates>-74.92901550138126,4.1728424160947,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CABAÑAS</name>
+				<description>PUNTOS DE ENCUENTRO PARA:
+
+Cabañas
+Unidad de Porcinos
+Especies Menores</description>
+				<LookAt>
+					<longitude>-74.92780916426347</longitude>
+					<latitude>4.173919649478353</latitude>
+					<altitude>0</altitude>
+					<heading>-10.40845094301204</heading>
+					<tilt>0.6371045413205771</tilt>
+					<range>255.5579599122307</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#falseColor15</styleUrl>
+				<Point>
+					<coordinates>-74.92840269947031,4.173837511195278,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GANADERIA</name>
+				<description>PUNTO DE ENCUENTRO PARA:
+
+Ganadería
+Compostaje
+Caballerizas</description>
+				<LookAt>
+					<longitude>-74.9266033020179</longitude>
+					<latitude>4.173781239958355</latitude>
+					<altitude>0</altitude>
+					<heading>16.55953819949486</heading>
+					<tilt>59.88429827532516</tilt>
+					<range>147.3712374790825</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#falseColor15</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.92668172410838,4.173556900574406,1</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ALMACEN</name>
+				<description>PUNTO DE ENCUENTRO PARA:
+
+Archivo Inactivo
+Almacén
+Administración
+Personal Casino y Cafetería</description>
+				<LookAt>
+					<longitude>-74.9288186899103</longitude>
+					<latitude>4.172415207644062</latitude>
+					<altitude>0</altitude>
+					<heading>3.737060612919162e-006</heading>
+					<tilt>0</tilt>
+					<range>96.06491940525447</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#falseColor15</styleUrl>
+				<Point>
+					<coordinates>-74.92888940040496,4.172335782426584,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FRENTE AGROINDUSTRIA</name>
+				<description>PUNTO DE ENCUENTRO PARA:
+
+Sector Agroindustria
+Salón Esmeralda
+Sala Instructores
+Administración Centro</description>
+				<LookAt>
+					<longitude>-74.92789933555387</longitude>
+					<latitude>4.17308424376819</latitude>
+					<altitude>0</altitude>
+					<heading>25.55832786196814</heading>
+					<tilt>21.79772675711325</tilt>
+					<range>191.2508573016985</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#falseColor15</styleUrl>
+				<Point>
+					<coordinates>-74.92805137232719,4.172941843316041,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>POSTCOSECHA</name>
+				<description>PUNTO DE ENCUENTRO PARA:
+
+Postcosecha
+Unidad de Ovinos</description>
+				<LookAt>
+					<longitude>-74.92993293854876</longitude>
+					<latitude>4.172390982154138</latitude>
+					<altitude>0</altitude>
+					<heading>-10.40860548598995</heading>
+					<tilt>0.636454076012405</tilt>
+					<range>107.5809167829336</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#falseColor15</styleUrl>
+				<Point>
+					<coordinates>-74.92998869194852,4.172163991626666,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MECANIZACION</name>
+				<description>PUNTO DE ENCUENTRO PARA
+
+Tractorismo
+Mecanización
+Mecanica Rural
+Soldadura
+Comunidad Educativa en Lotes</description>
+				<LookAt>
+					<longitude>-74.928575973469</longitude>
+					<latitude>4.171247269854365</latitude>
+					<altitude>0</altitude>
+					<heading>25.55830769024843</heading>
+					<tilt>21.80088509648481</tilt>
+					<range>310.4218063300339</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#falseColor15</styleUrl>
+				<Point>
+					<coordinates>-74.92896161493754,4.170879249980134,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,233 @@
+/* 
+  Proyecto: Sistema de Informacion Georeferenciado del Centro Agropecuario "La Granja". 
+  Nombre del proyecto:  SIGLaGranja. 
+  Desarrolladores: Tecnologo en Análisis y Desarrollo de Sistemas de Información "ADSI". 
+  Numero de Ficha: 798585. 
+  Descripcion del Proyecto: Software que permita la Georeferenciación de Centro Agropecuario "La Granja" SENA Espinal - Tolima. 
+  Año de Desarrollo: 2014-2015. */
+/*_________________________________________________________________________*/
+/*-- estilo css y css3 para el software SIG LA GRANJA --*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*----------------          ESTILO PARA EL <body>          ----------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+body{
+  width: 100% auto;
+  height: 100% auto;
+  background: #e9eff3;
+  font-family: cambria;
+  font-size: 16px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4 {
+  color: black;
+  font-size: 18px;
+}
+/*_________________________________________________________________________*/
+/*-- Estilo para el contenedor principal <section>-*/
+#section{
+  width: 1000px;
+  min-width: 600px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 1px 3.5px 8px 4px rgba(0,0,0,0.4);
+}
+/*_________________________________________________________________________*/
+/*-- Estilo para el contenedor principal <section>-*/
+#section{
+  width: 1000px;
+  min-width: 600px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 1px 3.5px 8px 4px rgba(0,0,0,0.4);
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---------Estilo para el Menu de Navegacion-  --(Visitante)-----------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+ul, ol{
+  list-style: none;
+}
+#nav{
+  margin: auto;
+  border-radius: 5px;
+  width: 99%;
+  height: 35px;
+  background: -moz-linear-gradient(top, #0000ff 1%, #08088a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#0000ff), color-stop(100%,#08088a));
+  background: -o-linear-gradient(top, #0000ff 1%,#08088a 100%);
+  background: -ms-linear-gradient(top, #0000ff 1%,#08088a 100%);
+}
+.nav {
+  text-align: center;
+  list-style-type: none;/*Son los tipos de marcador de ítems de lista en una lista*/
+  margin: 0 4px;
+  padding: 0px;
+  height: 35px; 
+  width: 65%;
+    position: center;
+    background: -moz-linear-gradient(top, #0000ff 1%, #08088a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#0000ff), color-stop(100%,#08088a));
+    background: -o-linear-gradient(top, #0000ff 1%,#08088a 100%);
+    background: -ms-linear-gradient(top, #0000ff 1%,#08088a 100%);
+  }
+.nav ul {  
+  background: -moz-linear-gradient(top, #0000ff 1%, #08088a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #08088a), color-stop(100%,#08088a));
+  background: -o-linear-gradient(top, #0000ff 1%,#08088a 100%);
+  background: -ms-linear-gradient(top, #0000ff 1%,#08088a 100%);
+  }
+
+.nav li a{
+  border-left: 1.5px solid #fff;/*color del separador del menu*/
+  color: #fff;
+  height: 15px;
+  width: auto;
+  line-height: 17px;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+.nav ul li a {
+    border: none;
+    border-bottom: 1.5px solid white;
+    text-align: left;
+    width: 110px;
+    padding: 8px;
+  }
+.nav li a:hover{
+  background-color: #5882fa;
+  color: black;
+}
+.nav > li{
+  float: left;
+}
+.nav li ul{
+  display:none;
+  position: absolute;
+  min-width: 110px;
+}
+.nav li:hover > ul{
+  display: block;
+}
+.nav li ul li{
+  position: relative;
+}
+.nav li ul li ul{
+  width: 100px;
+  right: -100px;
+  border-bottom: 1.5px solid white;
+  top: 0px;
+}
+
+/*_________________________________________________________________________*/
+/*-- Estilo para el contenedor del cuerpo --*/
+#article{
+  width: 100%;
+  margin: auto;
+}
+/*-- Estilo para el contenedor y para la imagen de la pagina de ingresar --*/
+#con-ingre{
+  width: 100%;
+  height: 350px;
+  margin: auto;
+}
+/*-- Estilo para el contenedor del login-*/
+#login{
+  width: 99%;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+/*_________________________________________________________________________*/
+/*-- Estilo para el pie de pagina-*/
+#foot{
+  border-radius: 0px 0px 20px 20px;
+  margin: auto;
+  padding: 1px;
+  padding-top: 1px;
+  width: 99%;
+  background: -moz-linear-gradient(top, #0000ff 1%, #08088a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#0000ff), color-stop(100%,#08088a));
+  background: -o-linear-gradient(top, #0000ff 1%,#08088a 100%);
+  background: -ms-linear-gradient(top, #0000ff 1%,#08088a 100%);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+/*_________________________________________________________________________*/
+/*-- Estilo para el pquienes somos-*/
+#fooq{
+  width: 70%;
+  margin: auto;
+  padding: 1px;
+  padding-top: 1px;
+  font-size: 18px;
+  text-align: justify;
+  color: black;
+}
+/*_________________________________________________________________________*/
+/*-- Estilo para el Banner-*/
+.banner{
+  width: 99%;
+  border-radius: 20px;
+  border: 0.5px solid black;
+  margin-top: 2px;
+}
+/*-- Estilo para el para la imagen del index -*/
+.img-ini-index{
+  margin-top: 3px;
+  width: 65%;
+  height: 281px;
+}
+/*-- Estilo para el fin del pie de pagina-*/
+.fin{
+  font-size: 1px;
+  text-align: center;
+  color: transparent;
+}
+/*-- Estilo para input de ingresar usuario y contraseña-*/
+.inp-ing{
+  margin-top: 4px;
+  margin-left: 4px;
+  width: 145px;
+  height: 20px;
+  margin-bottom: 4px;
+  padding: 0 2px 2px;
+  font-size: 16.5px;
+  font-family: cambria;
+  text-align: left;
+  box-shadow: inset 0 -1px #ebebeb;
+    background: white;
+   -webkit-box-shadow:0 1px 1px rgba(0, , 0, 0.35);
+   box-shadow:0 0 1px 1px rgba(0, 0, 0, 0.35);
+   border:1px solid gray;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius: 5px;
+}
+/*-- Estilo para el butoon de ingresar -*/
+.inp-button{
+  text-align: right;
+  width: 70px;
+  height: 25px;
+  padding: 0 2px 2px;
+  font-size: 17px;
+  font-family: cambria;
+  color: white;
+  text-align: center;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background: -moz-linear-gradient(top, #0000ff 5%, #08088a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#0000ff), color-stop(100%,#08088a));
+  background: -o-linear-gradient(top, #0000ff 1%,#08088a 100%);
+  background: -ms-linear-gradient(top, #0000ff 1%,#08088a 100%);
+  margin-top: 4px;
+  margin-left: 4px;
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LOTE 9 AREA AGRICOLA.shp</name>
+	<Schema name="LOTE 9" id="S_LOTE_9_II">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="sn_wht-stars">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-stars">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="pointStyleMap115">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle85</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle25">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle85">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_wht-stars">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-stars</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-stars</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>LOTE 9</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap115</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LOTE_9_II">
+					<SimpleData name="id_2">0</SimpleData>
+					<SimpleData name="AREA">41908</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92784517587978,4.167316106844621,0 -74.9271121674807,4.167048646279246,0 -74.92703591178385,4.167228881546197,0 -74.92687070493253,4.167336316414638,0 -74.92627673297179,4.167811787088751,0 -74.92611461085963,4.167931807590768,0 -74.92556834932391,4.168349690285575,0 -74.92607794129661,4.168595283084193,0 -74.92652726421515,4.168812530694934,0 -74.92683030930053,4.168968144650136,0 -74.9272865618222,4.169148026678688,0 -74.92772283419828,4.168742429096088,0 -74.92835748964507,4.168104788221867,0 -74.92878778308096,4.167636325119997,0 -74.92784517587978,4.167316106844621,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Lote9</name>
+		<LookAt>
+			<longitude>-74.92615839898565</longitude>
+			<latitude>4.167907801308526</latitude>
+			<altitude>0</altitude>
+			<heading>12.51851525841435</heading>
+			<tilt>24.85363522729663</tilt>
+			<range>787.1854897006576</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_wht-stars</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.92651606589961,4.168034348154884,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

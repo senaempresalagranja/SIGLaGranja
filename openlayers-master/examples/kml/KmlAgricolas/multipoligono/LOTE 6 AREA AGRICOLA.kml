@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LOTE 6 AREA AGRICOLA.shp</name>
+	<Schema name="LOTE 6" id="S_LOTE_6_II">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle2">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_wht-stars">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-stars">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle8">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="pointStyleMap11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-stars">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-stars</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-stars</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>LOTE 6</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LOTE_6_II">
+					<SimpleData name="id_2">0</SimpleData>
+					<SimpleData name="AREA">37465</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.93118431281016,4.166081691862349,0 -74.93112623634382,4.165885276763603,0 -74.93069475331396,4.165452744881133,0 -74.93019208049627,4.164911889866758,0 -74.93013094953506,4.164801235441455,0 -74.93006651493947,4.164601551343719,0 -74.9301241398699,4.16430009868916,0 -74.93009201015973,4.164021731171563,0 -74.92990192387885,4.16378606393272,0 -74.92964548591471,4.163684138071448,0 -74.92949785197028,4.163792974633411,0 -74.92941904471344,4.164488581783172,0 -74.93005370016023,4.166728282306456,0 -74.93038630607956,4.167734012636553,0 -74.93118431281016,4.166081691862349,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Lote6</name>
+		<LookAt>
+			<longitude>-74.92935980827632</longitude>
+			<latitude>4.165418246955256</latitude>
+			<altitude>0</altitude>
+			<heading>7.141405722265431</heading>
+			<tilt>17.91117490266913</tilt>
+			<range>760.3493561666935</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_wht-stars</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.9303776429107,4.165715209300315,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ZONAS VERDES B.shp</name>
+	<visibility>0</visibility>
+	<Schema name="ZONAS VERDES B" id="S_ZONAS_VERDES_B_IS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="falseColor48">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor486</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor487</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="falseColor486">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[PTAR/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[PTAR/area]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b400ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor487">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[PTAR/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[PTAR/area]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b400ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>ZONAS VERDES B</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_B_IS">
+					<SimpleData name="id_2">1</SimpleData>
+					<SimpleData name="AREA">126.97116794895</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92857194292694,4.172782865140348,0 -74.92866491276618,4.172781341044658,0 -74.92866034047901,4.172670082056675,0 -74.92857041883121,4.172670082056675,0 -74.92857194292694,4.172782865140348,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_B_IS">
+					<SimpleData name="id_2">2</SimpleData>
+					<SimpleData name="AREA">64.3780654854141</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.9285521296825,4.172857545830899,0 -74.92849878633211,4.172857545830899,0 -74.92848811766206,4.172944419287248,0 -74.9285521296825,4.172947467478707,0 -74.9285521296825,4.172857545830899,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_B_IS">
+					<SimpleData name="id_2">3</SimpleData>
+					<SimpleData name="AREA">141.593917503477</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92848659356632,4.172859069926629,0 -74.92838447915271,4.17285449763948,0 -74.92830675027071,4.172941371095829,0 -74.92847897308769,4.172938322904329,0 -74.92848659356632,4.172859069926629,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_B_IS">
+					<SimpleData name="id_2">4</SimpleData>
+					<SimpleData name="AREA">71.0276514864132</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92819244309131,4.172750859130145,0 -74.92829760569634,4.172744762747227,0 -74.92829455750491,4.172694467588269,0 -74.92819091899557,4.17269141939685,0 -74.92819244309131,4.172750859130145,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_B_IS">
+					<SimpleData name="id_2">5</SimpleData>
+					<SimpleData name="AREA">144.385123491715</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92819549128274,4.172679226631013,0 -74.92829912979208,4.172680750726743,0 -74.92829455750491,4.172563395355882,0 -74.92819701537849,4.172564919451611,0 -74.92819549128274,4.172679226631013,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_B_IS">
+					<SimpleData name="id_2">6</SimpleData>
+					<SimpleData name="AREA">192.298419571689</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92817567803834,4.172505479718316,0 -74.9280781359119,4.172508527909775,0 -74.9280476539974,4.172679226631013,0 -74.92806289495465,4.172682274822472,0 -74.92807508772043,4.172663985673797,0 -74.92808423229478,4.172648744716541,0 -74.92810709373069,4.172639600142163,0 -74.92812538287939,4.172641124237893,0 -74.92815434069816,4.172639600142163,0 -74.92817262984688,4.172645696525081,0 -74.92817567803834,4.172505479718316,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_B_IS">
+					<SimpleData name="id_2">7</SimpleData>
+					<SimpleData name="AREA">80.6554630819276</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92814976841099,4.172760003704483,0 -74.92814519612382,4.172750859130145,0 -74.92810099734778,4.172758479608754,0 -74.92807966000763,4.172747810938686,0 -74.92806899133753,4.172720377215633,0 -74.92806441905037,4.17269294349258,0 -74.92804155761449,4.172688371205391,0 -74.92802326846575,4.172822491629238,0 -74.92808728048627,4.172787437427536,0 -74.92814214793236,4.172769148278821,0 -74.92814976841099,4.172760003704483,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_B_IS">
+					<SimpleData name="id_2">8</SimpleData>
+					<SimpleData name="AREA"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92804003351876,4.172878883171034,0 -74.92818329851694,4.172916985564195,0 -74.92815129250673,4.172781341044658,0 -74.92801869617861,4.172837732586494,0 -74.92804003351876,4.172878883171034,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_B_IS">
+					<SimpleData name="id_2">9</SimpleData>
+					<SimpleData name="AREA"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92828998521775,4.172944419287248,0 -74.9283539972382,4.17285602173517,0 -74.92835856952537,4.172851449448021,0 -74.92833418399378,4.172790485618956,0 -74.92830827436643,4.172763051895942,0 -74.92829455750491,4.172746286842957,0 -74.92819244309131,4.172753907321565,0 -74.92817262984688,4.172758479608754,0 -74.92816348527252,4.172764575991672,0 -74.92819549128274,4.172924606042803,0 -74.92828998521775,4.172944419287248,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ZonaB</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-74.92752057386383</longitude>
+				<latitude>4.172997833614491</latitude>
+				<altitude>0</altitude>
+				<heading>1.333884444016248e-005</heading>
+				<tilt>45.00003419787493</tilt>
+				<range>404.7371251783515</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-74.92825416336865,4.172742109803101,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

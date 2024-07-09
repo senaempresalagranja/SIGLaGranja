@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ZONAS VERDES D.shp</name>
+	<visibility>0</visibility>
+	<Schema name="ZONAS VERDES D" id="S_ZONAS_VERDES_D_IS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="falseColor4810">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[PTAR/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[PTAR/area]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b400ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="falseColor4811">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[PTAR/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[PTAR/area]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b400ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor48">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor4810</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor4811</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>ZONAS VERDES D</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_D_IS">
+					<SimpleData name="id_2">1</SimpleData>
+					<SimpleData name="AREA"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92855670196971,4.173278196251116,0 -74.92855517787399,4.173287340825493,0 -74.92855975016116,4.173358973324586,0 -74.9287289247867,4.173363545611735,0 -74.92873197297813,4.173284292634034,0 -74.92855670196971,4.173278196251116,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_D_IS">
+					<SimpleData name="id_2">2</SimpleData>
+					<SimpleData name="AREA"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92815129250674,4.173073967423906,0 -74.9281543406982,4.172921557851383,0 -74.92803241304016,4.172888027745412,0 -74.92803241304016,4.17289412412829,0 -74.92807051543329,4.17301605178638,0 -74.92815129250674,4.173073967423906,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_D_IS">
+					<SimpleData name="id_2">3</SimpleData>
+					<SimpleData name="AREA"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92816043708108,4.173134931252931,0 -74.92826712378188,4.173136455348661,0 -74.92827322016477,4.173034340935056,0 -74.92816196117683,4.173031292743596,0 -74.92816043708108,4.173134931252931,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ZONAS_VERDES_D_IS">
+					<SimpleData name="id_2">4</SimpleData>
+					<SimpleData name="AREA"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92830065388783,4.17313950354012,0 -74.92841496106725,4.173145599922998,0 -74.92841038878007,4.173112069817067,0 -74.92853688872528,4.173110545721337,0 -74.92853993691672,4.173070919232447,0 -74.92830217798358,4.173063298753839,0 -74.92830065388783,4.173089208381162,0 -74.92830065388783,4.17313950354012,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>ZonaD</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>-74.92747691422311</longitude>
+			<latitude>4.17332495273953</latitude>
+			<altitude>0</altitude>
+			<heading>-5.368061650160475e-006</heading>
+			<tilt>40.72216161305804</tilt>
+			<range>340.8126056179984</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.92830988323637,4.173116785321072,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

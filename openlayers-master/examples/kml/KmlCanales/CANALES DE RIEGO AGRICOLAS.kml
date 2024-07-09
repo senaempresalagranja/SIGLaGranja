@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CANALES DE RIEGO AGRICOLAS.shp</name>
+	<Schema name="CANALES DE RIEGO" id="S_CANALES_DE_RIEGO_IS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Ca__Riego"><displayName>&lt;b&gt;Ca. Riego&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="normPointStyle8">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="pointStyleMap11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle2">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>CANALES DE RIEGO</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">1</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93262814333679,4.169181165290063,0 -74.93243941024745,4.169086164020852,0 -74.93236751555467,4.168975832364321,0 -74.93231260778262,4.168852673153172,0 -74.93216567602246,4.167744969632143,0 -74.93208802792627,4.167170844314896,0 -74.93126290310957,4.166039673563788,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">2</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93024329739868,4.168083797688236,0 -74.9302680036111,4.168090709545282,0 -74.93028658993765,4.168130388824025,0 -74.93048800655031,4.168469685196583,0 -74.93050330087228,4.168492038436402,0 -74.93185273066513,4.169246166158471,0 -74.93219891176064,4.169447933559938,0 -74.93240362024137,4.16956146439587,0 -74.93248773914871,4.169537640630989,0 -74.93263391757222,4.16919469488259,0 -74.93265933545725,4.169189142638006,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">3</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93015388443942,4.168047179551953,0 -74.92966799559511,4.167897765791149,0 -74.92960917127982,4.167915413085734,0 -74.92886136509931,4.167674741865381,0 -74.92727619900346,4.169228371744609,0 -74.92553029325732,4.168376595717618,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">4</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.92897504516094,4.170641920099616,0 -74.92898798651028,4.17064250834275,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">5</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93271730569873,4.169219572406431,0 -74.93343342790608,4.169153947351321,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">6</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93095384109118,4.168852436594719,0 -74.93094271411307,4.168846017184276,0 -74.93093854680089,4.168843612965731,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">7</SimpleData>
+					<SimpleData name="Ca__Riego">Fuente Hidrica</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93096619417183,4.168851407171372,0 -74.93094678218799,4.168841112937507,0 -74.9309611941154,4.168816995018165,0 -74.93098207670407,4.168824348042355,0 -74.93096590005085,4.168851407171372,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">8</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93020031888308,4.168059431553965,0 -74.93037561534264,4.167727662415683,0 -74.92990855027919,4.166371173705086,0 -74.92925677686579,4.166418233157301,0 -74.92805205488858,4.165046450124694,0 -74.92713439557002,4.166982946584121,0 -74.92701674693943,4.16721589087266,0 -74.92552731527624,4.168366494479772,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">9</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93122165325796,4.165992603170805,0 -74.93112700300775,4.165833777519494,0 -74.93021956021497,4.164845384761136,0 -74.9301277942831,4.164555840101807,0 -74.93015882690877,4.164276037519823,0 -74.93013268615383,4.163978242223001,0 -74.92998299910339,4.163815758084697,0 -74.92977671168222,4.163687133993039,0 -74.92962742694948,4.16361561115123,0 -74.92954259090735,4.163578578263314,0 -74.92903338469306,4.163055444174866,0 -74.92888493506239,4.163156136351462,0 -74.9280514666454,4.165041155936327,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">10</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93267108718602,4.169207976310028,0 -74.93271726427355,4.169220329416206,0 -74.93333933140775,4.167742368494518,0 -74.93335756694546,4.167732368360917,0 -74.93338403788738,4.16773707430615,0 -74.93502994222925,4.168399436096326,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">11</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93510759032543,4.168419436363529,0 -74.93551230161464,4.168544732155111,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">12</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93503170695871,4.168387082990108,0 -74.93592407182167,4.166399997619541,0 -74.93590995398598,4.166362350057753,0 -74.93586054156116,4.166317643578155,0 -74.93579465832802,4.166296466824644,0 -74.93359227596351,4.165423513985709,0 -74.93358051110045,4.165383513451304,0 -74.93359462893611,4.165324689136005,0 -74.93361580568961,4.165265864820706,0 -74.93386285258048,4.164634251169286,0 -74.93385971020589,4.164559988270575,0 -74.93385108771744,4.164494879206075,0 -74.9338246889063,4.164431865057976,0 -74.93303226848192,4.163759962349265,0 -74.93280403013857,4.163635254800817,0 -74.93259197408061,4.163609129279271,0 -74.9324793046848,4.16372840241384,0 -74.93235063489311,4.163905710461764,0 -74.93127461317437,4.166039611324335,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">13</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93268752122927,4.169205430320089,0 -74.93267752109567,4.169254842744921,0 -74.93208104253861,4.170489565122941,0 -74.93143162209775,4.170275444615257,0 -74.93140926885792,4.170281327046799,0 -74.93140103345378,4.170283680019415,0 -74.93139632750857,4.170300150827693,0 -74.93109279404165,4.170998983693428,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">14</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Riego</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.930955365735,4.168820057524534,0 -74.93092948303627,4.168804027898587,0 -74.93088727659006,4.168878587718226,0 -74.93092580651658,4.168899617410933,0 -74.93083771710442,4.169060207791726,0 -74.93084771723802,4.169067266709536,0 -74.93077065738498,4.169210503917271,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">15</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Drenaje</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93049359485994,4.168632260897924,0 -74.93024123854734,4.16907403150582,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CANALES_DE_RIEGO_IS">
+					<SimpleData name="id_2">16</SimpleData>
+					<SimpleData name="Ca__Riego">Ca. Drenaje</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93038771109242,4.168821086950039,0 -74.92997064669697,4.168621084278055,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ruta sin título</name>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-74.92892500804892,4.170715269083468,0 -74.92976655143077,4.169024523876437,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

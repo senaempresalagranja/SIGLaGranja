@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PostesGestion.kml</name>
+	<Schema name="POSTES TECNOPARQUE" id="S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="descriptio"><displayName>&lt;b&gt;descriptio&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="timestamp"><displayName>&lt;b&gt;timestamp&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="begin"><displayName>&lt;b&gt;begin&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="end"><displayName>&lt;b&gt;end&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="altitudeMo"><displayName>&lt;b&gt;altitudeMo&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="tessellate"><displayName>&lt;b&gt;tessellate&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="extrude"><displayName>&lt;b&gt;extrude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="visibility"><displayName>&lt;b&gt;visibility&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="drawOrder"><displayName>&lt;b&gt;drawOrder&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="icon"><displayName>&lt;b&gt;icon&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="X"><displayName>&lt;b&gt;X&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Y"><displayName>&lt;b&gt;Y&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="POSTES AREA PECUARIA" id="S_POSTES_AREA_PECUARIA_ISS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="coorde_x"><displayName>&lt;b&gt;coorde x&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="coorde_y"><displayName>&lt;b&gt;coorde y&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle101">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle13">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="pointStyleMap102">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle1011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle1010">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="pointStyleMap1020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle131</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle1010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap1021">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle130</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle1011">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle130">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle131">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>PostesGestion</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>PH001</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1021</styleUrl>
+			<Point>
+				<coordinates>-74.92818,4.173653,361.2</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PH002</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1021</styleUrl>
+			<Point>
+				<coordinates>-74.92822099999999,4.174145,355.9</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PH003</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1021</styleUrl>
+			<Point>
+				<coordinates>-74.927746,4.174315,356.2</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PT100</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+					<SimpleData name="Name"></SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp"></SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="X">-75</SimpleData>
+					<SimpleData name="Y">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93015853195456,4.171383321516675,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PT099</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+					<SimpleData name="Name"></SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp"></SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="X">-75</SimpleData>
+					<SimpleData name="Y">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93010800471944,4.171452170579526,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PT097</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+					<SimpleData name="Name"></SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp"></SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="X">-75</SimpleData>
+					<SimpleData name="Y">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92984561102151,4.172040960050385,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PT095</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+					<SimpleData name="Name"></SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp"></SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="X">-75</SimpleData>
+					<SimpleData name="Y">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92988523246484,4.172064908955444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PT096</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+					<SimpleData name="Name"></SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp"></SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="X">-75</SimpleData>
+					<SimpleData name="Y">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92982426088295,4.172075403614306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PT094</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+					<SimpleData name="Name"></SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp"></SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="X">-75</SimpleData>
+					<SimpleData name="Y">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92985606744168,4.172099214676348,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PT098</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+					<SimpleData name="Name"></SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp"></SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="X">-75</SimpleData>
+					<SimpleData name="Y">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92985606763877,4.171842993209385,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PP084</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">7</SimpleData>
+					<SimpleData name="coorde_x">-74.9289948771005</SimpleData>
+					<SimpleData name="coorde_y">4.17275657182306</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92899487710051,4.172756571823064,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PK048</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1021</styleUrl>
+			<Point>
+				<coordinates>-74.928594,4.17282,352.9</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

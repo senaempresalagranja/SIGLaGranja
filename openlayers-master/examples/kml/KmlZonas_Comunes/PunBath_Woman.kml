@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PunBath_Woman.kml</name>
+	<StyleMap id="msn_woman">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_woman0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_woman</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_woman">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_woman0">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Baños Mujeres</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>-74.92879132019102</longitude>
+			<latitude>4.173139896138996</latitude>
+			<altitude>0</altitude>
+			<heading>-5.425579626270022</heading>
+			<tilt>30.00027139759105</tilt>
+			<range>82.68078257195568</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_woman</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.92869677738794,4.173228100948609,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PECUARIAcolor.kmz</name>
+	<Folder>
+		<name>PECUARIA</name>
+		<Document>
+			<name>LOTE 25 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 25 AREA PECUARIA" id="S_LOTE_25_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor422">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor423">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor421</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor422</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor421">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 25 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor423</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_25_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">6369</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92652333465259,4.174375618720094,0 -74.92644580483002,4.174571483534981,0 -74.9264662074149,4.174591886119843,0 -74.92647844896584,4.174653093874507,0 -74.92648252948283,4.174779589900841,0 -74.92642948276212,4.174804073002667,0 -74.92642948276212,4.174832636621497,0 -74.92641724121117,4.174983615749657,0 -74.92633563087165,4.175061145572219,0 -74.92630298673583,4.175130514360812,0 -74.92629890621886,4.175191722115477,0 -74.92631930880373,4.175297815556869,0 -74.92646212689793,4.175354942794569,0 -74.9268579370447,4.175493680371756,0 -74.92700891617285,4.174567403018017,0 -74.92653557620352,4.174379699237099,0 -74.92652333465259,4.174375618720094,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 24 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 24 AREA PECUARIA" id="S_LOTE_24_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor4240">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor424">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor425">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor424</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor4240</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="layer 0">
+				<name>LOTE 24 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor425</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_24_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">1921</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92667703412538,4.174079781239262,0 -74.92658726275188,4.174038976069499,0 -74.92655597878837,4.174018573484597,0 -74.92654781775445,4.173991370038102,0 -74.92655869913304,4.173976408142539,0 -74.92619417294976,4.173828149359009,0 -74.92612072364418,4.17381998832504,0 -74.9261057617486,4.173821348497415,0 -74.92602687175371,4.174063459171364,0 -74.92657638137328,4.174259323986251,0 -74.92667703412538,4.174079781239262,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 23 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 23 AREA PECUARIA" id="S_LOTE_23_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor427">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor426</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor4260</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4260">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor426">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 23 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor427</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_23_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">583</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92657638137325,4.174259323986251,0 -74.92602551158137,4.174063459171364,0 -74.92599694796255,4.17414778985552,0 -74.92654509740977,4.174325972430215,0 -74.92657638137325,4.174259323986251,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 22 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 22 AREA PECUARIA" id="S_LOTE_22_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor428">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor4280">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor429">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor428</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor4280</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="layer 0">
+				<name>LOTE 22 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor429</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_22_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">838</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92654509740977,4.17432461225788,0 -74.92599830813487,4.174146429683225,0 -74.92596022330974,4.174256603641582,0 -74.92649885155069,4.174436146388572,0 -74.92654509740977,4.17432461225788,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 21 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 21 AREA PECUARIA" id="S_LOTE_21_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor42100">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor4211">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4210</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42100</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4210">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 21 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4211</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_21_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">613</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92649885155072,4.174435466302424,0 -74.92596022330977,4.174255923555434,0 -74.92593165969092,4.174337533894961,0 -74.92646212689792,4.17451707664195,0 -74.92649885155072,4.174435466302424,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 20 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 20 AREA PECUARIA" id="S_LOTE_20_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor4213">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4212</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42120</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4212">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor42120">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 20 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4213</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_20_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">1060</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92641316069421,4.17463949215128,0 -74.92646212689792,4.174512996124986,0 -74.92592757917393,4.174333453377996,0 -74.92587045193628,4.174492593540085,0 -74.92641316069421,4.17463949215128,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 19 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 19 AREA PECUARIA" id="S_LOTE_19_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor4214">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor42140">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor4215">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4214</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42140</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="layer 0">
+				<name>LOTE 19 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4215</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_19_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">14380</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92434433858691,4.175014899713156,0 -74.92419743997573,4.175537205886188,0 -74.92418111790782,4.17573715121808,0 -74.9242015204927,4.175843244659472,0 -74.92435658013783,4.175977901719694,0 -74.92506659009182,4.176455322205999,0 -74.92548688334044,4.175296455384574,0 -74.92434433858691,4.175014899713156,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 17 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 17 AREA PECUARIA" id="S_LOTE_17_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor4216">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor4217">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4218</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor4216</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4218">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 17 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4217</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_17_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">8873</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92451163978294,4.17398660943495,0 -74.92450347874899,4.173994770468918,0 -74.9244871566811,4.174109024944279,0 -74.9244871566811,4.174202876834738,0 -74.92447491513016,4.174292648208233,0 -74.9244626735792,4.174386500098692,0 -74.92443819047736,4.174549720777785,0 -74.92562154040067,4.174921047822657,0 -74.9258296467665,4.17443138578546,0 -74.92451163978294,4.17398660943495,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 18 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 18 AREA PECUARIA" id="S_LOTE_18_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor42180">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor4219">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor42190">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4219</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42180</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="layer 0">
+				<name>LOTE 18 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor42190</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_18_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">6421</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92444635151131,4.174553801294749,0 -74.92443410996037,4.174623170083343,0 -74.92440554634152,4.174757827143605,0 -74.92434433858686,4.175018980230121,0 -74.92436882168875,4.175018980230121,0 -74.92548688334041,4.17529237486757,0 -74.92562154040067,4.174921047822657,0 -74.92444635151131,4.174553801294749,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 16 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 16 AREA PECUARIA" id="S_LOTE_16_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor42200">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor4221">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4220</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42200</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4220">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 16 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4221</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_16_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">15701</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.924323936002,4.172999124326546,0 -74.924323936002,4.173007285360475,0 -74.92431169445109,4.173052171047242,0 -74.92431577496802,4.173186828107465,0 -74.92431169445109,4.173301082582825,0 -74.92433209703597,4.17339085395632,0 -74.9243606606548,4.173484705846779,0 -74.92439330479061,4.17357039670331,0 -74.92443819047736,4.173668329110734,0 -74.9244626735792,4.173774422552166,0 -74.92448307616408,4.173831549789826,0 -74.92449531771504,4.173904999095424,0 -74.92450755926598,4.173990689951914,0 -74.92452388133387,4.173990689951914,0 -74.9258296467665,4.174427305268456,0 -74.92601735054745,4.173921321163321,0 -74.92603367261535,4.173798905654031,0 -74.924323936002,4.172999124326546,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 14 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 14 AREA PECUARIA" id="S_LOTE_14_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor4223">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4222</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42220</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4222">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor42220">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 14 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4223</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_14_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">6602</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92382611293081,4.171348555209322,0 -74.9237036974215,4.17160154726191,0 -74.92364657018382,4.171768848458006,0 -74.9236302481159,4.17183821724656,0 -74.92459733063947,4.172217705325441,0 -74.9247523902846,4.171736204322132,0 -74.92382611293081,4.171348555209322,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 13 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 13 AREA PECUARIA" id="S_LOTE_13_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor4226">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor4224">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor4225">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4226</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor4224</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="layer 0">
+				<name>LOTE 13 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4225</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_13_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">7355</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92432257582968,4.170890177135584,0 -74.92413895256573,4.170833049897924,0 -74.92409406687898,4.170812647313023,0 -74.92406958377714,4.170792244728161,0 -74.92383563413709,4.171353995898661,0 -74.9247523902846,4.171733483977502,0 -74.92494689492716,4.171147249705136,0 -74.92432257582968,4.170890177135584,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 12 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 12 AREA PECUARIA" id="S_LOTE_12_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor4227">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4228</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42260</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4228">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor42260">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 12 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4227</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_12_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">5332</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92429605246933,4.170229133385326,0 -74.9242838109184,4.170241374936259,0 -74.92407162403559,4.170792244728161,0 -74.92410426817142,4.170816727830027,0 -74.92432869660514,4.170894257652589,0 -74.92438582384285,4.17091466023745,0 -74.92494485466868,4.171143169188172,0 -74.9249774988045,4.171045236780748,0 -74.92501830397428,4.170959545924218,0 -74.92508359224591,4.17088609661862,0 -74.92429605246933,4.170229133385326,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 10 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 10 AREA AGRICOLA" id="S_LOTE_10_AREA_AGRICOLA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor42290">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4229</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42280</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4229">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor42280">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 10 AREA AGRICOLA</name>
+				<Placemark>
+					<styleUrl>#falseColor42290</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_10_AREA_AGRICOLA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">11544</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92588133331489,4.170900378428075,0 -74.92603639296002,4.170639225341519,0 -74.9260935201977,4.1704882462134,0 -74.92618737208815,4.170284220364504,0 -74.92538759076069,4.169765994708437,0 -74.92502034423274,4.170398474839905,0 -74.92534270507392,4.170610661722689,0 -74.92539167127765,4.170663708443385,0 -74.92514275974205,4.170920781012937,0 -74.92514275974205,4.17093302256387,0 -74.92568546849998,4.171234980820149,0 -74.92588133331489,4.170900378428075,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 9 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 9 AREA AGRICOLA" id="S_LOTE_9_AREA_AGRICOLA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor4231">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4232</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor4230</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4232">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor4230">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 9 AREA AGRICOLA</name>
+				<Placemark>
+					<styleUrl>#falseColor4231</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_9_AREA_AGRICOLA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">6790</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92598334623929,4.171402282016206,0 -74.92513051819111,4.170920781012937,0 -74.92506522991948,4.17099014980153,0 -74.92502034423274,4.171079921175025,0 -74.92495505596109,4.171279866506876,0 -74.92490200924041,4.171467570287835,0 -74.92587317228092,4.171863380434613,0 -74.92598334623929,4.171402282016206,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 8 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 8 AREA PECUARIA" id="S_LOTE_8_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="area"><displayName>&lt;b&gt;area&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor4233">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4234</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42320</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor42320">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor4234">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 8 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4233</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_8_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="area">8595</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92573511478986,4.172454375310091,0 -74.92585889047149,4.172076247403584,0 -74.9258697718501,4.171868141037765,0 -74.92490132915425,4.171457368995384,0 -74.92468914227145,4.172020480338219,0 -74.92561950014219,4.172465256688729,0 -74.92573511478986,4.172454375310091,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 15 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 15 AREA PECUARIA" id="S_LOTE_15_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor4235">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4236</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42340</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4236">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor42340">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 15 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4235</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_15_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">8095</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92363432863289,4.17183821724656,0 -74.92361392604801,4.171948391204956,0 -74.92363840914986,4.172123853434981,0 -74.92367513380265,4.172274832563101,0 -74.92373634155732,4.172425811691261,0 -74.92382611293081,4.172593112887317,0 -74.92391996482127,4.172752253049405,0 -74.92404238033058,4.172903232177565,0 -74.92419743997573,4.172984842517091,0 -74.92431577496802,4.173017486652926,0 -74.92431577496802,4.173013406135921,0 -74.92459733063947,4.172217705325441,0 -74.92363432863289,4.17183821724656,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 7 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 7 AREA PECUARIA" id="S_LOTE_7_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor42370">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4237</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42360</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor42360">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor4237">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 7 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor42370</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_7_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">4594</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92561755344764,4.172464161847431,0 -74.92517074940736,4.172260554943015,0 -74.92494451951353,4.172147439996126,0 -74.92470132237769,4.172023013554496,0 -74.92464476490423,4.172226620458912,0 -74.92460517467281,4.172401948626656,0 -74.92542525803789,4.172809162435529,0 -74.92561755344764,4.172464161847431,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 6 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 6 AREA PECUARIA" id="S_LOTE_6_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="area"><displayName>&lt;b&gt;area&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor4239">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4238</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42380</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4238">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor42380">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 6 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4239</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_6_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="area">6765</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92438585852288,4.172972817187239,0 -74.9251985614868,4.173350265007358,0 -74.92520876277925,4.173360466299769,0 -74.92541900296763,4.172800568259758,0 -74.92521997652028,4.172704001610641,0 -74.92502202536322,4.172607434961524,0 -74.92474600394549,4.172473812693673,0 -74.92460525962545,4.172398584271582,0 -74.92458374683832,4.172440499643595,0 -74.92438585852288,4.172972817187239,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 5 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 5 AREA PECUARIA" id="S_LOTE_5_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor4242">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor4241">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4242</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42400</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor42400">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 5 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4241</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_5_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">10290</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92630149185249,4.172550787074982,0 -74.92628759967936,4.172550787074982,0 -74.92571802058116,4.172265997525879,0 -74.92565550580206,4.172453541863099,0 -74.92523179452169,4.173387790505907,0 -74.92583957709601,4.173648268752039,0 -74.92589167274522,4.173665633968424,0 -74.92599933708698,4.173471143544658,0 -74.92630149185249,4.172550787074982,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 4 AREA PECUARIA.shp</name>
+			<Schema name="LOTE 4 AREA PECUARIA" id="S_LOTE_4_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor4244">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor42420">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor4243">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4244</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42420</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="layer 0">
+				<name>LOTE 4 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4243</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_4_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">4834</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92651117770053,4.173066774655485,0 -74.9265538761358,4.172604208273407,0 -74.92631412015194,4.172504250287599,0 -74.92621424115825,4.17281058404388,0 -74.92599168007146,4.17346766551991,0 -74.92628819698302,4.173593388690384,0 -74.92625735922422,4.173676413425631,0 -74.92643289723587,4.173688274102072,0 -74.92651117770053,4.173066774655485,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 3 AREA PECUARIA..shp</name>
+			<Schema name="LOTE 3 AREA PECUARIA" id="S_LOTE_3_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor42450">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4245</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42440</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor42440">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor4245">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 3 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor42450</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_3_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">4495</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.9265562482711,4.172597091867543,0 -74.92651829410642,4.17300747127312,0 -74.92643052510059,4.173685901966784,0 -74.9267151813357,4.1736906462374,0 -74.92675313550038,4.173410734272873,0 -74.92688597507677,4.173403617867009,0 -74.92684802091208,4.17261369681456,0 -74.9265562482711,4.172597091867543,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 2 AREA PECUARIA..shp</name>
+			<Schema name="LOTE 2 AREA PECUARIA" id="S_LOTE_2_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor4247">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor42470">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4247</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor4246</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4246">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>LOTE 2 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor42470</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_2_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">4459</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92684920697974,4.172612510746956,0 -74.92687292833267,4.173124891970126,0 -74.92695120879732,4.173122519834838,0 -74.92694883666204,4.173499689346341,0 -74.92727856346768,4.173494945075764,0 -74.92730465695591,4.173177078946546,0 -74.92734261112059,4.172638604235166,0 -74.92684920697974,4.172612510746956,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>LOTE 1 AREA PECUARIA..shp</name>
+			<Schema name="LOTE 1 AREA PECUARIA" id="S_LOTE_1_AREA_PECUARIA_I">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor4248">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor4250">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor4249">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4250</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor4248</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="layer 0">
+				<name>LOTE 1 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4249</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_LOTE_1_AREA_PECUARIA_I">
+							<SimpleData name="id_2">2933</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92779806109674,4.173357361228809,0 -74.92754661475573,4.173338384146463,0 -74.92755373116162,4.173184195352451,0 -74.92730228482061,4.17317233467597,0 -74.92726433065594,4.173732158605024,0 -74.92771266422622,4.173753507822657,0 -74.92779806109674,4.173357361228809,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>AREA 11 AREA PECUARIA.shp</name>
+			<Schema name="AREA 11 AREA PECUARIA" id="S_AREA_11_AREA_PECUARIA_IS">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor42">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor4257">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor4258">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor42</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor4257</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="layer 0">
+				<name>AREA 11 AREA PECUARIA</name>
+				<Placemark>
+					<styleUrl>#falseColor4258</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_AREA_11_AREA_PECUARIA_IS">
+							<SimpleData name="id_2">0</SimpleData>
+							<SimpleData name="AREA">4286</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-74.92503054552519,4.170404595615351,0 -74.92496117673657,4.170408676132316,0 -74.92483468071031,4.170327065792789,0 -74.92459801072562,4.170086315291135,0 -74.92444295108049,4.16991085306115,0 -74.92428789143538,4.170225052868362,0 -74.92429197195236,4.170229133385326,0 -74.92508359224591,4.17088609661862,0 -74.92535290636637,4.170624943532104,0 -74.92503054552519,4.170404595615351,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+	</Folder>
+</Document>
+</kml>

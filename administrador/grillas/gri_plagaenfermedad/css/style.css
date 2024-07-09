@@ -1,0 +1,24 @@
+*{margin:0;}
+
+body{
+   background:#F2F2F2;/*Fondo del aplicativo*/
+   color:#000;/*Color de la letra*/
+   font-size:16px;
+   font-family:cambria;
+ 
+}
+#contenido{
+   background:#fff;/*Color fondo de la grilla*/
+   margin:15px 2px 15px 2px;/*Arriba, Derecha, Abajo, Izquierda*/
+   overflow:scroll;/*Habilita los diferentes tipos la barra de navegacion laterales y verticales*/
+   padding:10px;/*-Marjen del contorno y el contenido-*/
+ border:1px solid #2E9AFE;
+
+   /*width:97.5%;/*-Ancho del contorno de la grilla-*/
+border-radius: 10px;/*-Borde de las esquinas-*/
+}
+input, select{
+   background:#fff;/*Color fondo inputs y botones*/
+   border:1px solid #2E9AFE;/*Contorno de los input y botones*/
+   padding:5px;/*Tamaño de los input y botones*/
+}

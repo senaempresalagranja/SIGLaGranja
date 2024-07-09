@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CARRETEABLE AGRICOLA.shp</name>
+	<visibility>0</visibility>
+	<Schema name="CARRETEABLE AGRICOLA" id="S_CARRETEABLE_AGRICOLA_IS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Carreteabl"><displayName>&lt;b&gt;Carreteabl&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle2">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle8">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="pointStyleMap11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>CARRETEABLE AGRICOLA</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CARRETEABLE_AGRICOLA_IS">
+					<SimpleData name="id_2">1</SimpleData>
+					<SimpleData name="Carreteabl">Via Acceso</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.92891102391299,4.170695141219967,0 -74.93068516158768,4.167128042128621,0 -74.93130007558888,4.165938245171224,0 -74.93246400519787,4.163596237553424,0 -74.93252047642356,4.163552191567046,0 -74.93263920286697,4.163551417442282,0 -74.93280709888801,4.163604518830608,0 -74.93301868442636,4.163729013969246,0 -74.93359771799196,4.16421819516108,0 -74.93386935674491,4.1644431616217,0 -74.93389799471689,4.164481727547793,0 -74.93390374811541,4.164532187333343,0 -74.9338965601914,4.164574540752635,0 -74.93362519477672,4.16535272797006,0 -74.93362872422833,4.165379787099037,0 -74.93364637148638,4.165406846228055,0 -74.93592875019257,4.166326856613729,0 -74.9359393385474,4.166346856839525,0 -74.93594757393447,4.166369210033021,0 -74.93595345635382,4.166412739936183,0 -74.93594404448288,4.166452740387734,0 -74.93592404425709,4.166497446774766,0 -74.93504756377456,4.168422174384698,0 -74.93502638706489,4.168425703836349,0 -74.93500521035527,4.168423350868569,0 -74.93339813338997,4.167766872869607,0 -74.93337578019646,4.167760990450256,0 -74.93334636809972,4.167759813966385,0 -74.93332127487605,4.167772755288959,0 -74.93329303926323,4.167795108482455,0 -74.93327748693133,4.167815237729045,0 -74.93326075811558,4.167855109159762,0 -74.93251106455263,4.169555128350742,0 -74.93249341729459,4.169568069673275,0 -74.93247224058493,4.169578658028108,0 -74.93243106364952,4.1695868934152,0 -74.93239223968182,4.169583363963589,0 -74.93235341571415,4.169578658028108,0 -74.93230595400028,4.169548585530696,0 -74.93046593322892,4.168499161919406,0 -74.93018515594328,4.168084523514275,0 -74.92889337665494,4.167670401192321,0 -74.92883455246145,4.167663342289099,0 -74.92877572826801,4.167700989772909,0 -74.92851925478453,4.167943345449956,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CARRETEABLE_AGRICOLA_IS">
+					<SimpleData name="id_2">3</SimpleData>
+					<SimpleData name="Carreteabl">CARRETEABLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.93101176762504,4.168821058592682,0 -74.93094413509925,4.168911260788195,0 -74.93066648490614,4.169478326013132,0 -74.92973706264951,4.169034203352524,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ruta sin título</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-74.92852405192026,4.171418178084804,0 -74.92868099778841,4.171220513034387,0 -74.92874358585596,4.17122387732673,0 -74.92878103606219,4.171235467920475,0 -74.92882765884892,4.171247639005166,0 -74.9288730252198,4.171276362161163,0 -74.92890762328719,4.171331033220187,0 -74.92894388238355,4.171372958334097,0 -74.92934818466978,4.171379479281117,0 -74.92952486917601,4.171446718156506,0 -74.92961558728382,4.17149100300824,0 -74.92975838758268,4.171556683382939,0 -74.9298619860146,4.171571545318258,0 -74.9299562725807,4.171596965722494,0 -74.92999619478606,4.171609246358944,0 -74.93003475009196,4.171636869326067,0 -74.93006807288693,4.171680446104273,0 -74.93007546132091,4.171759876044687,0 -74.93009889555088,4.171847960360253,0 -74.93012163432648,4.171904883868569,0 -74.93016885177957,4.17194263213589,0 -74.93022483947031,4.171995979776402,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

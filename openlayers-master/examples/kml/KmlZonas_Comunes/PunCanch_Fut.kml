@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PunCanch_Fu.kml</name>
+	<Style id="sh_play2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_play2">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_play0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_play2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_play2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Cancha Futbol</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>-74.92925818376072</longitude>
+			<latitude>4.173311306955506</latitude>
+			<altitude>0</altitude>
+			<heading>-1.71064561993323</heading>
+			<tilt>31.40033174191002</tilt>
+			<range>261.9958914732051</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_play0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.92917822309659,4.173246529058454,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

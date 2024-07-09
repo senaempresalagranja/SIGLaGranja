@@ -1,0 +1,1 @@
+<?php echo str_replace(array('-' , ' '), "",  " LABORATORIO DE CALIDAD DE ALIMENTOS"); ?>

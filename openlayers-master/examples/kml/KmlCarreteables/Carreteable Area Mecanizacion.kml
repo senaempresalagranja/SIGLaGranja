@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Carreteable Area Mecanizacion.kml</name>
+	<Style id="falseColor4253">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>640000aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor4254">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor4251</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor4253</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor4251">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>640000aa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Carreteable Area Mecanizacion</name>
+		<styleUrl>#falseColor4254</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-74.92852405192026,4.171418178084804,0 -74.92868099778841,4.171220513034387,0 -74.92874358585596,4.17122387732673,0 -74.92878103606219,4.171235467920475,0 -74.92882765884892,4.171247639005166,0 -74.9288730252198,4.171276362161163,0 -74.92890762328719,4.171331033220187,0 -74.92894388238355,4.171372958334097,0 -74.92934818466978,4.171379479281117,0 -74.92952486917601,4.171446718156506,0 -74.92961558728382,4.17149100300824,0 -74.92975838758268,4.171556683382939,0 -74.9298619860146,4.171571545318258,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

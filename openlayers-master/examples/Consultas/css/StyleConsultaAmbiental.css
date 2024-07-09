@@ -1,0 +1,190 @@
+  .flotante 
+{position:fixed;
+ z-index:100;
+  /*Aqui tenemos arriba las dos principales propiedades el z-index
+  100 indica que el objeto se va a sobreponer encima de todos los objetos*/ 
+ width:100px;
+ background:yellow;
+ border:1px solid green;
+}
+
+
+  
+}
+.iframe{
+ margin-top: auto;
+  display:none;
+  }
+
+.iframe.active{
+  display:block;
+}
+
+
+.AMBIENTAL {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Cambria;
+        background-color:#82FA58;
+        width: 108px;
+        text-align: center;
+        padding: 5px;
+        margin-right: 50px;
+}
+
+.AMBIENTAL:hover {
+    background-color: #82FA58; /*Ambiental */
+    color: white;
+
+
+
+}
+.PECUARIA {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Cambria;
+        background-color:white;
+        width: 108px;
+        text-align: center;
+        padding: 5px;
+        margin-right: 50px;
+}
+
+.PECUARIA:hover {
+    background-color: #FE2E2E; /*Pecuaria */
+    color: white;
+
+
+}
+
+.MECANIZACION {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Cambria;
+        background-color:white;
+        width: 108px;
+        text-align: center;
+        padding: 5px;
+        margin-right: 50px;
+}
+
+.MECANIZACION:hover {
+    background-color: #2E2EFE; /*Mecanizacion */
+    color: white;
+
+
+}
+.AGROINDUSTRIA {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Cambria;
+        background-color:white;
+        width: 108px;
+        text-align: center;
+        padding: 5px;
+        margin-right: 50px;
+}
+
+.AGROINDUSTRIA:hover {
+    background-color: #ffe4c4; /*Agroindustria */
+    color: white;
+
+
+}
+.ZONASCOMUNES{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: #ffe4c4;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Cambria;
+        background-color:white;
+        width: 108px;
+        text-align: center;
+        padding: 5px;
+        margin-right: 50px;
+}
+.ZONASCOMUNES:hover{
+
+    background-color: #FF8F32;
+    color: white;
+}
+.AGRICOLA {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: green;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Cambria;
+        background-color:white;
+        width: 108px;
+        text-align: center;
+        padding: 5px;
+        margin-right: 50px;
+}
+
+.AGRICOLA:hover {
+    background-color: #04B404; /*Agricola */
+    color: white;
+
+
+}
+.GESTION {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Cambria;
+        background-color:white;
+        width: 108px;
+        text-align: center;
+        padding: 5px;
+        margin-right: 50px;
+}
+
+.GESTION:hover {
+    background-color: #ffff00; /*Gestion */
+    color: white;
+
+
+}
+.INICIO {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+     font-family: Cambria;
+        background-color:white;
+        width: 108px;
+        text-align: center;
+        padding: 5px;
+        margin-right: 50px;
+    
+}
+
+.INICIO:hover {
+    background-color: #FA8258; /*Inicio */
+    color: white;
+
+
+}
+
+.LotesCultivos
+{
+    width: 250px;
+    
+}

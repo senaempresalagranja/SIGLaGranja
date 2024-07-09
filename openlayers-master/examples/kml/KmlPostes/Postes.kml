@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Postes</name>
+	<Document>
+		<name>POSTES TECNOPARQUE.shp</name>
+		<Schema name="POSTES TECNOPARQUE" id="S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+			<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="descriptio"><displayName>&lt;b&gt;descriptio&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="timestamp"><displayName>&lt;b&gt;timestamp&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="begin"><displayName>&lt;b&gt;begin&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="end"><displayName>&lt;b&gt;end&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="altitudeMo"><displayName>&lt;b&gt;altitudeMo&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="tessellate"><displayName>&lt;b&gt;tessellate&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="extrude"><displayName>&lt;b&gt;extrude&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="visibility"><displayName>&lt;b&gt;visibility&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="drawOrder"><displayName>&lt;b&gt;drawOrder&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="icon"><displayName>&lt;b&gt;icon&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="X"><displayName>&lt;b&gt;X&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="Y"><displayName>&lt;b&gt;Y&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle101">
+			<IconStyle>
+				<scale>0.827273</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.7</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="normPointStyle13">
+			<IconStyle>
+				<scale>0.7</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.7</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<StyleMap id="pointStyleMap102">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle13</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle101</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>POSTES TECNOPARQUE</name>
+			<Placemark>
+				<name>PT100</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+						<SimpleData name="Name"></SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp"></SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="X">-75</SimpleData>
+						<SimpleData name="Y">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93015853195456,4.171383321516675,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PT099</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+						<SimpleData name="Name"></SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp"></SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="X">-75</SimpleData>
+						<SimpleData name="Y">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93010800471944,4.171452170579526,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PT097</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+						<SimpleData name="Name"></SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp"></SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="X">-75</SimpleData>
+						<SimpleData name="Y">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92984561102151,4.172040960050385,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PT095</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+						<SimpleData name="Name"></SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp"></SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="X">-75</SimpleData>
+						<SimpleData name="Y">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92988523246484,4.172064908955444,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PT096</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+						<SimpleData name="Name"></SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp"></SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="X">-75</SimpleData>
+						<SimpleData name="Y">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92982426088295,4.172075403614306,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PT094</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+						<SimpleData name="Name"></SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp"></SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="X">-75</SimpleData>
+						<SimpleData name="Y">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92985606744168,4.172099214676348,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PT098</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_TECNOPARQUE_SSSSSSIIIISII">
+						<SimpleData name="Name"></SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp"></SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="X">-75</SimpleData>
+						<SimpleData name="Y">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92985606763877,4.171842993209385,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>POSTES AREA AGRICOLA.shp</name>
+		<open>1</open>
+		<Schema name="POSTES AREA AGRICOLA" id="S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+			<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="descriptio"><displayName>&lt;b&gt;descriptio&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="timestamp"><displayName>&lt;b&gt;timestamp&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="begin"><displayName>&lt;b&gt;begin&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="end"><displayName>&lt;b&gt;end&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="altitudeMo"><displayName>&lt;b&gt;altitudeMo&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="tessellate"><displayName>&lt;b&gt;tessellate&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="extrude"><displayName>&lt;b&gt;extrude&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="visibility"><displayName>&lt;b&gt;visibility&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="drawOrder"><displayName>&lt;b&gt;drawOrder&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="icon"><displayName>&lt;b&gt;icon&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="cordenada"><displayName>&lt;b&gt;cordenada&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="cordenadaY"><displayName>&lt;b&gt;cordenadaY&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle101">
+			<IconStyle>
+				<scale>0.827273</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.7</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="normPointStyle13">
+			<IconStyle>
+				<scale>0.7</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.7</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<StyleMap id="pointStyleMap102">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle13</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle101</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>POSTES AREA AGRICOLA</name>
+			<Placemark>
+				<name>PG108</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">020</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 19:38:12.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93103397161433,4.16880468418785,364.09</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PM109</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">021</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 19:40:57.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93133293247333,4.168965630292054,358.69</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PM110</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">022</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 19:43:13.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93172521658946,4.169195950170543,361.77</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PU111</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">023</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 19:45:13.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93201121658488,4.169362950167215,361.46</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PU112</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">024</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 19:48:51.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93238974279848,4.169545455834434,362.35</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PU113</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">025</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 19:52:27.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.9325581467516,4.16931922198454,361.68</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PH107</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">026</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 20:00:49.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93085649117822,4.169033211132058,356.45</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PH106</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">027</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 20:04:52.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93062825166986,4.169333244667874,357.65</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PC105</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">028</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 20:07:48.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93040199999999,4.169633999999993,357.18</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PC104</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">029</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 20:09:28.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93019699999999,4.169929999999984,362.78</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PC103</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">030</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 20:12:22.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.93000142517225,4.170177381566775,358.89</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PC102</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">031</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 20:14:13.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92977468900807,4.170467904442132,361.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PM101</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+						<SimpleData name="Name">032</SimpleData>
+						<SimpleData name="descriptio"></SimpleData>
+						<SimpleData name="timestamp">2018/10/02 20:25:21.000</SimpleData>
+						<SimpleData name="begin"></SimpleData>
+						<SimpleData name="end"></SimpleData>
+						<SimpleData name="altitudeMo"></SimpleData>
+						<SimpleData name="tessellate">-1</SimpleData>
+						<SimpleData name="extrude">0</SimpleData>
+						<SimpleData name="visibility">-1</SimpleData>
+						<SimpleData name="drawOrder">0</SimpleData>
+						<SimpleData name="icon"></SimpleData>
+						<SimpleData name="cordenada">-75</SimpleData>
+						<SimpleData name="cordenadaY">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92956139858148,4.170714302672871,349.65</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>POSTES AREA ADMINISTRACION Y PECUARIA.shp</name>
+		<Schema name="POSTES AREA PECUARIA" id="S_POSTES_AREA_PECUARIA_ISS">
+			<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="coorde_x"><displayName>&lt;b&gt;coorde x&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="coorde_y"><displayName>&lt;b&gt;coorde y&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle101">
+			<IconStyle>
+				<scale>0.827273</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.7</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="normPointStyle13">
+			<IconStyle>
+				<scale>0.7</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.7</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<StyleMap id="pointStyleMap102">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle13</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle101</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>POSTES AREA PECUARIA</name>
+			<Placemark>
+				<name>PL091</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">1</SimpleData>
+						<SimpleData name="coorde_x">-74.9295206409694</SimpleData>
+						<SimpleData name="coorde_y">4.17310049254934</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92951944444445,4.173100000000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL092</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">2</SimpleData>
+						<SimpleData name="coorde_x">-74.9294850629633</SimpleData>
+						<SimpleData name="coorde_y">4.17339697593406</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92948506296324,4.173396975934045,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL093</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">3</SimpleData>
+						<SimpleData name="coorde_x">-74.9294455318453</SimpleData>
+						<SimpleData name="coorde_y">4.17369741243058</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92944553184529,4.173697412430566,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA081</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">4</SimpleData>
+						<SimpleData name="coorde_x">-74.9288209401815</SimpleData>
+						<SimpleData name="coorde_y">4.17358277218849</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92882094018148,4.173582772188507,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL082</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">5</SimpleData>
+						<SimpleData name="coorde_x">-74.9288644244112</SimpleData>
+						<SimpleData name="coorde_y">4.1732546639094</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92886442441123,4.1732546639094,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA083</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">6</SimpleData>
+						<SimpleData name="coorde_x">-74.9289000024174</SimpleData>
+						<SimpleData name="coorde_y">4.17298980541904</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92890000241739,4.172989805419021,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP084</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">7</SimpleData>
+						<SimpleData name="coorde_x">-74.9289948771005</SimpleData>
+						<SimpleData name="coorde_y">4.17275657182306</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92899487710051,4.172756571823064,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP089</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">8</SimpleData>
+						<SimpleData name="coorde_x">-74.9292083451375</SimpleData>
+						<SimpleData name="coorde_y">4.17278424360564</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92920834513751,4.17278424360565,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP085</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">9</SimpleData>
+						<SimpleData name="coorde_x">-74.9290225488831</SimpleData>
+						<SimpleData name="coorde_y">4.17259054112762</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92902254888308,4.172590541127632,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP088</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">10</SimpleData>
+						<SimpleData name="coorde_x">-74.9292202044729</SimpleData>
+						<SimpleData name="coorde_y">4.17261821291019</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.9292202044729,4.172618212910177,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL090</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">11</SimpleData>
+						<SimpleData name="coorde_x">-74.9294297193981</SimpleData>
+						<SimpleData name="coorde_y">4.1727170407051</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92942971939809,4.172717040705085,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP086</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">12</SimpleData>
+						<SimpleData name="coorde_x">-74.9289355804236</SimpleData>
+						<SimpleData name="coorde_y">4.17232568263726</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92893558042356,4.172325682637252,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP087</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">13</SimpleData>
+						<SimpleData name="coorde_x">-74.9283426136541</SimpleData>
+						<SimpleData name="coorde_y">4.17198966813458</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92834261365412,4.17198966813459,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI079</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">15</SimpleData>
+						<SimpleData name="coorde_x">-74.9277970842263</SimpleData>
+						<SimpleData name="coorde_y">4.17305700831958</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92779708422624,4.173057008319585,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA077</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">16</SimpleData>
+						<SimpleData name="coorde_x">-74.9280382240458</SimpleData>
+						<SimpleData name="coorde_y">4.17397413025632</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92803822404581,4.173974130256299,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG078</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">17</SimpleData>
+						<SimpleData name="coorde_x">-74.926986696308</SimpleData>
+						<SimpleData name="coorde_y">4.17370136554238</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92698669630799,4.173701365542364,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA080</name>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+						<SimpleData name="id_2">18</SimpleData>
+						<SimpleData name="coorde_x">-74.9283781916603</SimpleData>
+						<SimpleData name="coorde_y">4.1734602257228</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.92837819166027,4.173460225722812,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>POSTES AREA ADMINISTRATIVA Y PECUARIA</name>
+		<Snippet maxLines="2"><![CDATA[created using <a href="http://www.gpsvisualizer.com/?ref=ge&time=20190129093429">GPS Visualizer</a>]]></Snippet>
+		<Style id="hlightPointStyle101">
+			<IconStyle>
+				<scale>0.827273</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.7</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="normPointStyle13">
+			<IconStyle>
+				<scale>0.7</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.7</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<StyleMap id="pointStyleMap102">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle13</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle101</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="Waypoints">
+			<name>Waypoints</name>
+			<Placemark>
+				<name>PH001</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92818,4.173653,361.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PH002</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92822099999999,4.174145,355.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PH003</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927746,4.174315,356.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP004</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92751300000001,4.174418,356.3</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PC005</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92768599999999,4.174029,356.4</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PC006</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927694,4.173722,357</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PC007</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92743299999999,4.173745,356.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PC008</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92739899999999,4.173737,357.1</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PB009</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927099,4.174013,356.7</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG010</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92711900000001,4.173728,356.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG011</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926828,4.173716,357.4</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG012</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926694,4.173715,356.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG013</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926531,4.173701,356.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG014</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926239,4.17368,356.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG015</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.925887,4.173662,356.3</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG016</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926334,4.174366,356.3</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG017</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92611700000001,4.174552,356.1</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG019</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926638,4.174063,354.7</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG018</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926638,4.173829,356.3</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA020</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927885,4.17376,356.3</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA021</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927785,4.173462,356.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI022</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92786700000001,4.173142,355.8</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI023</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927939,4.172829,355.7</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI024</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92762500000001,4.17279,355.3</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI025</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92741,4.172517,355.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG026</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92655000000001,4.172447,355.5</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG027</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92620000000001,4.172311111111111,354.8</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG028</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926562,4.172198,355.4</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI029</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927707,4.172578,363.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI030</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927984,4.172579,362.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI031</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92809200000001,4.172459,363.5</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP032</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928172,4.172189,362.7</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI033</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927397,4.172343,361.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI034</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927414,4.172313,361.3</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI035</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92742200000001,4.172026,360.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PI036</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927347,4.17201,361.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PG037</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927212,4.171619,359.1</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PO038</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.927082,4.171223,359</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PO039</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926788,4.171046,359.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PO040</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926569,4.170801,359.3</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PV041</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926419,4.170853,358.7</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PO042</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92648300000001,4.171586,358.1</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PO043</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926126,4.171423,358.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PO044</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.926765,4.171769,359.1</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP045</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928235,4.171694,359</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP046</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928223,4.172061,358.4</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PK047</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92826100000001,4.172838,354.3</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PK048</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928594,4.17282,352.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP049</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928552,4.172403,356.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP050</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928551,4.172155,356.8</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL051</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929033,4.172269,357.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL052</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92904299999999,4.17227,357</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL053</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928989,4.172532,357.3</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL054</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92927,4.17239,356.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL055</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929298,4.172437,356.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL056</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929452,4.172522,357</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL057</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929547,4.172592,357.5</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL058</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929861,4.172775,357.3</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL059</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929836,4.172781,357.8</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL060</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929799,4.173007,357.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL061</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929738,4.173278,357.4</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL062</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929935,4.173592,358.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL063</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929683,4.173571,357.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL064</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929626,4.17385,358.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL065</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929531,4.173927,358</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL066</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.929035,4.173999,355.8</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL067</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928951,4.174195,354.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL068</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928838,4.173956,354.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL069</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92886900000001,4.173794,354.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PL070</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92874999999999,4.174035,355.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA071</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928377,4.173498,360.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA072</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928164,4.173399,360.8</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA073</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928397,4.173303,360.5</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA074</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928578,4.173104,360.5</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA075</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.92810400000001,4.173133,359.7</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PA076</name>
+				<Snippet maxLines="0"></Snippet>
+				<description>&amp;nbsp;</description>
+				<styleUrl>#pointStyleMap102</styleUrl>
+				<Point>
+					<coordinates>-74.928106,4.173163,359.7</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

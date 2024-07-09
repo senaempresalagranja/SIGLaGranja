@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>La_Granja.kml</name>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin80">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff071b</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin19">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff071b</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>centro Agropecuario &quot;La Granja&quot;</name>
+		<open>1</open>
+		<description>Centro Agropecuario &quot;La Granja&quot;</description>
+		<LookAt>
+			<longitude>-74.93280168756266</longitude>
+			<latitude>4.16803045334192</latitude>
+			<altitude>0</altitude>
+			<heading>-0.003518557045875687</heading>
+			<tilt>2.442931221190787e-023</tilt>
+			<range>2858.345406473068</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin8</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-74.92937036307937,4.175191933024892,0 -74.9276801227592,4.174400481574788,0 -74.92643654586254,4.177355744080954,0 -74.92408006647278,4.175704139930701,0 -74.92433388239589,4.173967397255137,0 -74.92430202792978,4.173663520454661,0 -74.92406451789289,4.173220599655762,0 -74.92353647813347,4.172284876491056,0 -74.92348244201077,4.171873925808428,0 -74.92367495773078,4.171396281908056,0 -74.92460398287618,4.169170960793209,0 -74.92731117938445,4.170988954851215,0 -74.92769536465603,4.170251040058064,0 -74.92880166693055,4.170876304893691,0 -74.93011977188986,4.168146433054488,0 -74.92886214259919,4.167710455631607,0 -74.92731080890818,4.169331686410943,0 -74.92544061836509,4.168409248344716,0 -74.92625415334364,4.167758307446726,0 -74.92700885285366,4.167160613545406,0 -74.92907096209599,4.162382175736957,0 -74.93053718960802,4.162758907723731,0 -74.93037279312577,4.163255229302003,0 -74.93112348852773,4.163470124360526,0 -74.93067670697528,4.164274150245416,0 -74.93173836861494,4.16510304840481,0 -74.93263234971028,4.163430780657658,0 -74.93405865497248,4.164434227897925,0 -74.9336917545215,4.16536811382925,0 -74.93608581299667,4.166330662152541,0 -74.93511970834982,4.16839894195672,0 -74.933351032307,4.167738511856742,0 -74.93212040865512,4.170548198222174,0 -74.93146668042529,4.170336726566873,0 -74.93045341397514,4.172869105478865,0 -74.92937984603094,4.175180290413973,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

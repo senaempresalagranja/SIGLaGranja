@@ -1,0 +1,2517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Zonas Comunes.kml</name>
+	<StyleMap id="msn_coffee">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_coffee0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_coffee</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_woman">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_play">
+		<IconStyle>
+			<color>ffffffaa</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-stars">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_parking_lot">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-stars">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_woman">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_man">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_man0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_man0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-stars">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_coffee">
+		<IconStyle>
+			<color>ff00aaaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_man">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-stars">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-stars6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-stars1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mechanic">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mechanic</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mechanic</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_toilets">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-stars0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-stars</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-stars2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_play">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_play</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_play</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_play">
+		<IconStyle>
+			<color>ffffffaa</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars0">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_toilets">
+		<IconStyle>
+			<color>ffffff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_man">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_toilets0">
+		<IconStyle>
+			<color>ffffff55</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-stars1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-stars5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-stars</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_play0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_play2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_play0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_woman0">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_mechanic">
+		<IconStyle>
+			<color>ffff5500</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/mechanic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_dining">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars1">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_dining">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-stars0">
+		<IconStyle>
+			<scale>1.05</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-stars0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars2">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-stars1">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parking_lot">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-stars0">
+		<IconStyle>
+			<color>ff7fffff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_play1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_play1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_play2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mechanic">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/mechanic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-stars1">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.16667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_play0">
+		<IconStyle>
+			<color>ffffffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-stars2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_coffee0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-stars1">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_woman">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_woman</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_woman0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_play0">
+		<IconStyle>
+			<scale>1.16667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0e7eff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_wht-stars2">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_toilets">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_toilets</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_toilets0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-stars2">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_dining">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_man0">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-stars3">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-stars2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-stars3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-stars5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-stars3">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_homegardenbusiness">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_woman0">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_homegardenbusiness">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.28333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_toilets0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_toilets0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_toilets</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_toilets0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_man0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_man</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_man</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_play1">
+		<IconStyle>
+			<color>ffffffaa</color>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-stars3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-stars4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-stars0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_coffee">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-stars4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-stars1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-stars4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-stars3">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-stars4">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-stars4">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars4">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_coffee0">
+		<IconStyle>
+			<color>ff00aaaa</color>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_woman0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_woman0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_woman</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_play2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_play0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_play1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-stars3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_play2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-stars5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-stars2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-stars3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-stars5">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_homegardenbusiness">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_homegardenbusiness</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_homegardenbusiness</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_play1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-stars5">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.05</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_play2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_coffee0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_coffee</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_coffee0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parking_lot">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parking_lot</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parking_lot</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-stars6">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-stars3">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_man0">
+		<IconStyle>
+			<color>ff00aa00</color>
+			<scale>1.28333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-stars6">
+		<IconStyle>
+			<color>ff7fffff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-stars6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-stars0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-stars6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-stars4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0e7eff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Zonas Comunes</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<Folder>
+			<name>Intendencia</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Intendencia</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92842864417111,4.173914927513252,0 -74.92847056953795,4.173778110553181,0 -74.92839277932937,4.173744373452831,0 -74.92833721641267,4.17387697632356,0 -74.92842864417111,4.173914927513252,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Intendencia</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.9280444208227</longitude>
+					<latitude>4.173821699822215</latitude>
+					<altitude>0</altitude>
+					<heading>-1.670416424088971</heading>
+					<tilt>28.37695488199892</tilt>
+					<range>240.4481024055356</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wht-stars2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92840718535952,4.173825562113851,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Parqueadero Publico</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Parq_Pub</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92843794395874,4.171461324453986,0 -74.92860906212729,4.171138384595135,0 -74.92821926768185,4.170977381161118,0 -74.92772132669766,4.170710860399329,0 -74.92753502354663,4.170915593243292,0 -74.92843794395874,4.171461324453986,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Parqueadero</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92891892424312</longitude>
+					<latitude>4.171737546379931</latitude>
+					<altitude>0</altitude>
+					<heading>-0.2169444442040136</heading>
+					<tilt>30.00024422277744</tilt>
+					<range>405.8861294773128</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92809390158465,4.171036470597597,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Porteria</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Porteria</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92846710685626,4.171807297392733,0 -74.92852608972925,4.171733082312556,0 -74.92842838304685,4.171668943270003,0 -74.92837588590642,4.171741201819176,0 -74.92846710685626,4.171807297392733,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name> Porteria</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92845431281768</longitude>
+					<latitude>4.172439589093966</latitude>
+					<altitude>0</altitude>
+					<heading>-0.2169021337164561</heading>
+					<tilt>30.00114075020507</tilt>
+					<range>534.8964241830173</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wht-stars0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92845159406345,4.171725731360749,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Parqueadero Institucional</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Parq_Inst</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92864772788964,4.172061363705139,0 -74.92844512138822,4.171938884126974,0 -74.92837099888324,4.17201446667388,0 -74.92857256747477,4.172141846833902,0 -74.92864772788964,4.172061363705139,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Parqueadero Institucional</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92839384354153</longitude>
+					<latitude>4.172279756655839</latitude>
+					<altitude>0</altitude>
+					<heading>-0.2168977781995383</heading>
+					<tilt>30.00129890647062</tilt>
+					<range>289.3287797977003</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_parking_lot</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92849485209503,4.172019277136978,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Casino</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Casino</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92879950840236,4.172625349516919,0 -74.92880027808423,4.172497833895111,0 -74.92874613311709,4.1724920454227,0 -74.92874954045743,4.172430081505624,0 -74.92873657173753,4.172411137916746,0 -74.92857805530642,4.172408085233022,0 -74.92857034053962,4.172484843597931,0 -74.92857659123774,4.172517894270207,0 -74.92857206260145,4.172614337245475,0 -74.92860164304365,4.172635412904652,0 -74.92879950840236,4.172625349516919,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Casino</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92849871695259</longitude>
+					<latitude>4.172612716746207</latitude>
+					<altitude>0</altitude>
+					<heading>-1.64659623365696</heading>
+					<tilt>26.81007666079581</tilt>
+					<range>118.0876970895177</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92865052306685,4.172503627961564,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Administracion</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Admin</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92853007892498,4.172524775100357,0 -74.92852335173076,4.172409164006379,0 -74.92826686637271,4.172410141070509,0 -74.92826352236516,4.172525791747654,0 -74.92853007892498,4.172524775100357,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Administracion</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92836398390983</longitude>
+					<latitude>4.172606763003016</latitude>
+					<altitude>0</altitude>
+					<heading>-0.2168941199664477</heading>
+					<tilt>30.00080281467071</tilt>
+					<range>178.8633254357322</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-stars2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92839643454161,4.172448864860813,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Cancha_Micro</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Canch_Micro</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92919942804865,4.172801501120979,0 -74.92923534747698,4.172539213836113,0 -74.9290687158578,4.172517524828422,0 -74.92902793564248,4.172774492128959,0 -74.92919942804865,4.172801501120979,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Cancha Microfutbol</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92908929551322</longitude>
+					<latitude>4.172988495655261</latitude>
+					<altitude>0</altitude>
+					<heading>-0.2169454792433158</heading>
+					<tilt>30.00098520025383</tilt>
+					<range>219.3542543238164</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_play</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92913016039232,4.17262427184418,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Cancha boleivol</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Canch_Boleivol</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92938512737214,4.172837047579267,0 -74.92943027414754,4.172670857390339,0 -74.92933278077214,4.172652685697582,0 -74.9292948778313,4.172823269582145,0 -74.92938512737214,4.172837047579267,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Cancha Boleivol</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92908929551322</longitude>
+					<latitude>4.172988495655261</latitude>
+					<altitude>0</altitude>
+					<heading>-0.2169454792433158</heading>
+					<tilt>30.00098520025383</tilt>
+					<range>219.3542543238164</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_play2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92935589870407,4.172723053772638,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Plaza Roja</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Plaza_Roja</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92857343526062,4.172519073409344,0 -74.92841603934485,4.172524869736108,0 -74.92839936038921,4.172696715920385,0 -74.92842392292536,4.172705636898301,0 -74.92844165829595,4.172744670366023,0 -74.92844212464553,4.172772432092497,0 -74.92845116531878,4.172765915274861,0 -74.92846952998215,4.172739320684672,0 -74.92848906026019,4.172734101056413,0 -74.92851374636459,4.172766066389229,0 -74.92850421049178,4.172804687930836,0 -74.92855712598937,4.172800427702756,0 -74.92857343526062,4.172519073409344,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Plaza_Roja</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92873269295886</longitude>
+					<latitude>4.172984246084187</latitude>
+					<altitude>0</altitude>
+					<heading>-0.2169199520307499</heading>
+					<tilt>30.00092603961243</tilt>
+					<range>206.1292521701755</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wht-stars6</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92848609414604,4.172637358675675,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Cafeteria Instructores</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Caf_instructores</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92815517927954,4.172719069876401,0 -74.92815422609476,4.172718099920993,0 -74.92818926022633,4.17269587215211,0 -74.92820155951794,4.172670121394048,0 -74.92819405562402,4.172631333316939,0 -74.92818429150624,4.172612220369281,0 -74.92815345444079,4.172602050236377,0 -74.92813457497981,4.172609441106495,0 -74.92811816885973,4.172619569458934,0 -74.92811222240341,4.17264705878485,0 -74.9281123432219,4.172666762878803,0 -74.92811336034532,4.172684786313135,0 -74.92812529797575,4.172695822580114,0 -74.9281419580855,4.172706635425644,0 -74.92815517927954,4.172719069876401,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>   Cafeteria Instructores</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92827728705375</longitude>
+					<latitude>4.172750331059132</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425549878012244</heading>
+					<tilt>30.57190109523386</tilt>
+					<range>107.22509555552</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_coffee0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92815293313129,4.172643011249629,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Sala Instructores</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Sala_Instructores</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92858576857394,4.173056995890252,0 -74.92858382279904,4.17292010447641,0 -74.92845565159914,4.172928157034597,0 -74.9284552560591,4.173065431347856,0 -74.92858576857394,4.173056995890252,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Sala Instructores</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92866765888181</longitude>
+					<latitude>4.173114583056162</latitude>
+					<altitude>0</altitude>
+					<heading>-5.42557966793357</heading>
+					<tilt>30.00061045274748</tilt>
+					<range>135.8945760735827</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-stars4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92852238914038,4.17298619580133,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name> Ambiente Navegacion</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92866765888181</longitude>
+					<latitude>4.173114583056162</latitude>
+					<altitude>0</altitude>
+					<heading>-5.42557966793357</heading>
+					<tilt>30.00061045274748</tilt>
+					<range>135.8945760735827</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-stars4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92835677873653,4.172982567935967,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Amb_Navegacion</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Amb_Nav</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92839533135347,4.173051042782672,0 -74.92839773537476,4.172936914746953,0 -74.92832229221187,4.172942826744511,0 -74.92831735235366,4.173055402007252,0 -74.92839533135347,4.173051042782672,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Baños_Instructores</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Bath_Instructor</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92825472062603,4.172988341521443,0 -74.92824983249308,4.17294184598781,0 -74.92824629665927,4.172909812266211,0 -74.92819559972602,4.172904402013342,0 -74.92818122799402,4.172915357932872,0 -74.92818402540682,4.172985708074668,0 -74.9281841390917,4.172988566785961,0 -74.92818493776932,4.17299209455676,0 -74.92818508303057,4.172995703556939,0 -74.92818639835832,4.172995578197108,0 -74.92825472062603,4.172988341521443,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>   Baños Instructores</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92826573421611</longitude>
+					<latitude>4.173048284224366</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425512352180854</heading>
+					<tilt>28.46423721481517</tilt>
+					<range>77.94423089791214</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_toilets</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92821326518813,4.172939260820948,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Sombrillas</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Sombrillas</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92872607750226,4.173073857725863,0 -74.92873394144387,4.172876316747948,0 -74.92861372411211,4.172874255708718,0 -74.92860180086521,4.173071198675535,0 -74.92872607750226,4.173073857725863,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name> Sombrillas</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92847424566159</longitude>
+					<latitude>4.173043910713382</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425549767098327</heading>
+					<tilt>29.8776994892648</tilt>
+					<range>210.8316926850787</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-stars3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92866908269687,4.172950263372759,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Bienestar</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Bienestar</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92872420356254,4.17319900645946,0 -74.92872418387077,4.173136283990382,0 -74.92868657206525,4.173130880095765,0 -74.9286827913983,4.17319840041982,0 -74.92872420356254,4.17319900645946,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Bienestar</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92892251270482</longitude>
+					<latitude>4.173128084550205</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425582387935426</heading>
+					<tilt>29.87718579946116</tilt>
+					<range>210.5666731594215</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-stars0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92870546898455,4.173148391769114,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Baños Niñas</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Bath_Woman</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92868279042294,4.173136589923302,0 -74.92867010352192,4.173136033351907,0 -74.92866878334596,4.17326954748303,0 -74.92872241451352,4.173266960697049,0 -74.92872473766857,4.173200393227815,0 -74.92868163139752,4.173201942290631,0 -74.92868279042294,4.173136589923302,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Baños Mujeres</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92879132019102</longitude>
+					<latitude>4.173139896138996</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425579626270022</heading>
+					<tilt>30.00027139759105</tilt>
+					<range>82.68078257195568</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_woman0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92869677738794,4.173228100948609,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Apoyo Admin</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Apoyo Administrativo</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92866859718023,4.173137780484596,0 -74.92866992039191,4.17313683439115,0 -74.92864025218795,4.17313649329134,0 -74.92864337412691,4.17316433346546,0 -74.92866768489576,4.173164473578042,0 -74.92866859718023,4.173137780484596,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name> Apoyo Administrativo</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92861892528514</longitude>
+					<latitude>4.173169701739369</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425567081205603</heading>
+					<tilt>29.9997461836345</tilt>
+					<range>82.82590903487353</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-stars</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92865416807496,4.173144114778459,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Capilla</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Capilla</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92863918887463,4.173135655782637,0 -74.92859941646687,4.173130028708985,0 -74.92858769138606,4.17326971443885,0 -74.92866673475508,4.17326939350064,0 -74.92866755083074,4.173165208474222,0 -74.92864212433113,4.173166163641106,0 -74.92863918887463,4.173135655782637,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Capilla</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92864257548818</longitude>
+					<latitude>4.173180456603154</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425552492398581</heading>
+					<tilt>29.47410038747446</tilt>
+					<range>52.0114890007702</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wht-stars4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92862571362316,4.173195267306258,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Biblioteca</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Biblioteca</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92843557052186,4.1732920217113,0 -74.92843481473575,4.173143508208152,0 -74.92830951945385,4.17313693916616,0 -74.92830494900471,4.173289427640543,0 -74.92843557052186,4.1732920217113,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Biblioteca</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92830947609502</longitude>
+					<latitude>4.173422763368381</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425564645094542</heading>
+					<tilt>30.00062167305021</tilt>
+					<range>138.8361641742703</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wht-stars4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92836879296256,4.173204467537678,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Salon Esmeralda</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Salon Esmeralda</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92830427120983,4.173287496735481,0 -74.92830800019821,4.173142914501734,0 -74.92815148089535,4.173127166972265,0 -74.92814280742628,4.173276800393238,0 -74.92830427120983,4.173287496735481,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Salon Esmeralda</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92822412855448</longitude>
+					<latitude>4.173409929795808</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425558434171595</heading>
+					<tilt>30.00009609198689</tilt>
+					<range>138.9080052980168</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wht-stars5</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.9282322661484,4.173199158402855,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Oficina Seguridad Laboral</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Of_Seg_Lab</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.9285168241988,4.173411640925011,0 -74.92851437214225,4.173358687586049,0 -74.92848816981187,4.17335520626544,0 -74.92848552744616,4.173412168327164,0 -74.9285168241988,4.173411640925011,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Seguridad Laboral</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92864477966469</longitude>
+					<latitude>4.173543361055374</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425592245037893</heading>
+					<tilt>30.00062672023805</tilt>
+					<range>139.1240525272319</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wht-stars1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.9285001167946,4.173371010628714,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Salon Herramientas</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Salon Herramientas</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92851985524321,4.173426628086627,0 -74.92858069431526,4.173425818052375,0 -74.92857733594707,4.173395655319484,0 -74.92855310349505,4.173396766383825,0 -74.9285506706732,4.173357575304359,0 -74.92853257918978,4.173359336351227,0 -74.92853456967175,4.173396071041323,0 -74.92851848440697,4.173397640406155,0 -74.92851985524321,4.173426628086627,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Cuarto Herramientas</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.9285898660353</longitude>
+					<latitude>4.173502205434253</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425587959863012</heading>
+					<tilt>29.99977225310962</tilt>
+					<range>65.71230719975205</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_mechanic</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92855389668701,4.173405112544353,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Bath_Men</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Baños Hombres</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92861424696631,4.173428271893801,0 -74.92851892951069,4.173429182098136,0 -74.92851067907662,4.173484420830221,0 -74.9286102692668,4.173490758825492,0 -74.92861424696631,4.173428271893801,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name> Baños Hombres </name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92842935394732</longitude>
+					<latitude>4.173433067338533</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425681570006663</heading>
+					<tilt>27.30230363091812</tilt>
+					<range>140.4536434353647</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_man0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92856560843086,4.17345727803219,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Ambiente Abierto</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Amb_Abierto</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92874355065315,4.173857929376514,0 -74.92878362785434,4.173522998944389,0 -74.92858322418206,4.173496445546201,0 -74.92853570467189,4.173828926345357,0 -74.92874355065315,4.173857929376514,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Ambiente Abierto</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.9285494773697</longitude>
+					<latitude>4.173665467525281</latitude>
+					<altitude>0</altitude>
+					<heading>-5.425833783090654</heading>
+					<tilt>29.99984981106473</tilt>
+					<range>94.23162828326475</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-stars1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.9286651963115,4.173673051355236,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>  Gimnasio</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92854344025508</longitude>
+					<latitude>4.173669605018727</latitude>
+					<altitude>0</altitude>
+					<heading>-1.575424043822643</heading>
+					<tilt>22.9909947790559</tilt>
+					<range>134.8930544840021</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_play0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.9287152908942,4.173553831709937,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Gimnasio</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92877984943982,4.173525156495024,0 -74.92865308743568,4.173506543140928,0 -74.92864577312849,4.173612869782954,0 -74.92876658383841,4.173623215246804,0 -74.92877984943982,4.173525156495024,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>TecnoParque</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>TecnoParque</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92983294770804,4.173519915408659,0 -74.92990287456158,4.173505153653116,0 -74.92991388160151,4.173450013103754,0 -74.92993013740355,4.173440819205405,0 -74.92993088472413,4.173374107077999,0 -74.9298530926136,4.173370836491793,0 -74.92982253546407,4.173404788609141,0 -74.92977336108451,4.173405924084717,0 -74.9297692195954,4.173524243382132,0 -74.92983294770804,4.173519915408659,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  TecnoParque</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92974681821281</longitude>
+					<latitude>4.173327621714949</latitude>
+					<altitude>0</altitude>
+					<heading>-1.710681315243514</heading>
+					<tilt>31.40052850341625</tilt>
+					<range>161.242206947237</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-stars1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92984457619755,4.173443696662086,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Cancha Futbol</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Cancha Futbol</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92944610890945,4.173851408448808,0 -74.92954861387128,4.172928543583652,0 -74.92898716164319,4.172813282099382,0 -74.9288327930991,4.173732422121768,0 -74.92944610890945,4.173851408448808,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Cancha Futbol</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92925818376072</longitude>
+					<latitude>4.173311306955506</latitude>
+					<altitude>0</altitude>
+					<heading>-1.71064561993323</heading>
+					<tilt>31.40033174191002</tilt>
+					<range>261.9958914732051</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_play1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92917822309659,4.173246529058454,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Baños Hombres</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Baños_Hombres</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92849884827518,4.173554779808536,0 -74.92842900136375,4.173554655222042,0 -74.92842716611702,4.173649753043335,0 -74.92849943222549,4.173648401322893,0 -74.92849884827518,4.173554779808536,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name> Baños Hombres</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.9283894965382</longitude>
+					<latitude>4.173803694316522</latitude>
+					<altitude>0</altitude>
+					<heading>-1.710582660216911</heading>
+					<tilt>31.39921329359145</tilt>
+					<range>166.1027429908556</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_man</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92846538610434,4.173596913599903,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Alojamiento</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Alojamiento Hombres</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92842196795121,4.17368582190687,0 -74.92842579587064,4.17354479144966,0 -74.92813334545994,4.173546610980749,0 -74.92812513477806,4.17368277928722,0 -74.92842196795121,4.17368582190687,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name> Alojamiento Hombres</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92838949648396</longitude>
+					<latitude>4.173803694316567</latitude>
+					<altitude>0</altitude>
+					<heading>-1.710582660124354</heading>
+					<tilt>31.39854508266976</tilt>
+					<range>166.1027429542327</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_homegardenbusiness</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92830724032258,4.173594312889318,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Alojamiento</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.9282486725476,4.173892754522183,0 -74.92829673393429,4.173734733192561,0 -74.92797957708177,4.173641716495538,0 -74.92792909701848,4.173791934949047,0 -74.9282486725476,4.173892754522183,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>   Alojamiento</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92838949648396</longitude>
+					<latitude>4.173803694316567</latitude>
+					<altitude>0</altitude>
+					<heading>-1.710582660124354</heading>
+					<tilt>31.39854508266976</tilt>
+					<range>166.1027429542327</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_toilets0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.9281311850896,4.173748667317388,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zona Alojamiento Mujeres</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92869279803919,4.174053153928165,0 -74.92831263953846,4.173950203238091,0 -74.92826195903623,4.174076776600249,0 -74.92845373220808,4.174128117887879,0 -74.92844024600282,4.174192792501537,0 -74.92838271960567,4.174330708731965,0 -74.928605551036,4.174373393064895,0 -74.92869279803919,4.174053153928165,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Zona Alojamiento Mujeres</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92834839647364</longitude>
+					<latitude>4.174213875750469</latitude>
+					<altitude>0</altitude>
+					<heading>-1.710579711877658</heading>
+					<tilt>31.39790780935774</tilt>
+					<range>172.722559744137</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_woman</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92855868781481,4.174137060688856,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Admin Finca</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Admin Finca</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92812783694997,4.173625166994563,0 -74.92812326815033,4.173622233484439,0 -74.92812851419102,4.173548872497619,0 -74.92802380885918,4.173546196937672,0 -74.9280353331244,4.173596000082952,0 -74.9280869983084,4.173594483076626,0 -74.92808750435167,4.173626334358931,0 -74.92812783694997,4.173625166994563,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Administracion Finca</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92813894007887</longitude>
+					<latitude>4.173833286073922</latitude>
+					<altitude>0</altitude>
+					<heading>-1.692944801396518</heading>
+					<tilt>30.00046574035113</tilt>
+					<range>103.5663334768581</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wht-stars</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92809510123935,4.17356712044977,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Investigacion</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Investigacion</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92809008989143,4.173627249595334,0 -74.92808757759067,4.173628231527506,0 -74.92808713251407,4.173662764271679,0 -74.92812398993303,4.173669454572606,0 -74.9281249222237,4.173626307845146,0 -74.92809008989143,4.173627249595334,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Investigacion</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92808867440395</longitude>
+					<latitude>4.173755462801126</latitude>
+					<altitude>0</altitude>
+					<heading>-1.6929531835897</heading>
+					<tilt>30.00038812588021</tilt>
+					<range>103.2210566008671</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wht-stars3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92810500344423,4.17363695901665,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Enfermeria</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Enfermeria</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92808363468615,4.17365687553106,0 -74.92808619765846,4.173597247474995,0 -74.92806422784929,4.173596146052945,0 -74.92803317702344,4.173598127010738,0 -74.92803590437366,4.173646933736428,0 -74.92808363468615,4.17365687553106,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>  Enfermeria</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92826371725958</longitude>
+					<latitude>4.173936852110973</latitude>
+					<altitude>0</altitude>
+					<heading>-1.692970099660861</heading>
+					<tilt>30.00031909246352</tilt>
+					<range>188.6664418605704</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wht-stars3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92806117238126,4.173609797462512,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Zonas Hidratacion</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>   Zona Mecanizacion</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92888483500742</longitude>
+					<latitude>4.171369513232188</latitude>
+					<altitude>0</altitude>
+					<heading>-1.693034106618568</heading>
+					<tilt>30.00034178932779</tilt>
+					<range>206.6883169898266</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_flag</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92908908441007,4.171090344182615,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>   Zona Agroindustria</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.9276949942159</longitude>
+					<latitude>4.173028791644083</latitude>
+					<altitude>0</altitude>
+					<heading>-1.692970809893461</heading>
+					<tilt>30.00066998966723</tilt>
+					<range>149.044512868647</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_flag</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92762346465588,4.172992281088844,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>   Zona Enfermeria</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92797765649492</longitude>
+					<latitude>4.173693365468369</latitude>
+					<altitude>0</altitude>
+					<heading>-1.693003994592918</heading>
+					<tilt>30.00027306780755</tilt>
+					<range>188.0979538369001</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_flag</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.9279672591439,4.173581129291683,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Cafeteria</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Cafeteria</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92894892723056,4.172442676967093,0 -74.92880243661193,4.172433104926546,0 -74.92880288965357,4.172626453162834,0 -74.92894746267108,4.172618422642064,0 -74.92894892723056,4.172442676967093,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Cafeteria</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-74.92849871695259</longitude>
+					<latitude>4.172612716746207</latitude>
+					<altitude>0</altitude>
+					<heading>-1.64659623365696</heading>
+					<tilt>26.81007666079581</tilt>
+					<range>118.0876970895177</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_coffee</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.92887180901853,4.17253167071286,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

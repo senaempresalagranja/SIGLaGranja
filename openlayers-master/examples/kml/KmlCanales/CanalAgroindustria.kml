@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CanalAgroindustria.kml</name>
+	<StyleMap id="pointStyleMap110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle80</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle80">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle20">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Canal de riego primaria</name>
+		<styleUrl>#pointStyleMap110</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-74.92769059114764,4.174430879934773,0 -74.92772958660336,4.174280441176984,0 -74.92783177770653,4.173755825407385,0 -74.92795356946289,4.173225239609756,0 -74.92804066368151,4.172866867051727,0 -74.92794182354544,4.17280745477152,0 -74.92797008407156,4.172665224241733,0 -74.92799366235447,4.17250209314137,0 -74.92806772663823,4.172041896027348,0 -74.9281145287521,4.171895502919599,0 -74.92814957736472,4.171791094018176,0 -74.92820483145995,4.17161769545662,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

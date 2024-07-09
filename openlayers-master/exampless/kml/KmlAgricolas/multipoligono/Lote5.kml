@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Lote5.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>99005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>99005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_wht-stars5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-stars00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-stars00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-stars00">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-stars00">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Lote5</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<Placemark>
+			<name>Lote5</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.93117892593371,4.166036104728122,0 -74.93166936368039,4.165086026946341,0 -74.93067810481335,4.164287041587485,0 -74.93109861381838,4.163474997261417,0 -74.93036287312405,4.163268652715692,0 -74.93052168880594,4.16277026405551,0 -74.9290768620471,4.162401810405172,0 -74.92884617122533,4.162944237834495,0 -74.92890989072727,4.163200592517719,0 -74.92913473395616,4.163164829522617,0 -74.92942314583978,4.163629443961942,0 -74.92948704464425,4.163616612871867,0 -74.9295410314983,4.163710606718356,0 -74.92973425690146,4.163636739407609,0 -74.93008161221218,4.163959622888816,0 -74.93008195577761,4.164052322951758,0 -74.93008216971862,4.164110039441714,0 -74.93014972649614,4.164307504231122,0 -74.93007721961392,4.164434803106307,0 -74.93007135384022,4.16453354034146,0 -74.93010922511772,4.164680701495127,0 -74.93010329754709,4.164743826387575,0 -74.93025122502093,4.164977617985868,0 -74.93050193628373,4.165228207409859,0 -74.93078973508678,4.165520864085649,0 -74.93091729293838,4.165667837886393,0 -74.93101084928377,4.165773646640207,0 -74.93117892593371,4.166036104728122,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lote 5</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<LookAt>
+				<longitude>-74.93157144154027</longitude>
+				<latitude>4.164416500837213</latitude>
+				<altitude>0</altitude>
+				<heading>-4.056711900980317e-005</heading>
+				<tilt>40.28590304193856</tilt>
+				<range>873.1066317693461</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-stars5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-74.93053665434482,4.163575704508959,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

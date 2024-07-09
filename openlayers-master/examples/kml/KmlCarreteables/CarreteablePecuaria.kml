@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CarreteablePecuaria.kml</name>
+	<Schema name="Carreteable area pecuaria" id="S_Carreteable_area_pecuaria_I">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor4253">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>640000aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor4254">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor4251</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor4253</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor4251">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>640000aa</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>Carreteable area pecuaria</name>
+		<visibility>0</visibility>
+		<Document>
+			<name>Carreteable area pecuaria 2.shp</name>
+			<visibility>0</visibility>
+			<Schema name="Carreteable area pecuaria 2" id="S_Carreteable_area_pecuaria_2_I">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor42510">
+				<LineStyle>
+					<color>ff000000</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor42540">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor42510</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor42530</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor42530">
+				<LineStyle>
+					<color>ff000000</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>Carreteable area pecuaria 2</name>
+				<visibility>0</visibility>
+				<Placemark>
+					<visibility>0</visibility>
+					<styleUrl>#falseColor42540</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Carreteable_area_pecuaria_2_I">
+							<SimpleData name="id_2">0</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<LineString>
+						<coordinates>
+							-74.92823981940876,4.171883284263038,0 -74.92779799655556,4.173463135677569,0 -74.92774444227031,4.173784461389007,0 -74.92639219656802,4.173717518532429,0 -74.92625161656927,4.173784461389007,0 -74.92621814514099,4.173791155674653,0 -74.92607756514225,4.173771072817676,0 -74.92604409371398,4.173757684246384,0 -74.92604409371398,4.173864792816877,0 -74.92598384514308,4.174058927100846,0 -74.92591690228653,4.174299921384415,0 -74.92582987657302,4.174527527096652,0 -74.92581648800172,4.174708272809369,0 -74.92583657085866,4.174728355666346,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>Carreteable area pecuaria 3.shp</name>
+			<visibility>0</visibility>
+			<Schema name="Carreteable area pecuaria 3" id="S_Carreteable_area_pecuaria_3_I">
+				<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor4253">
+				<LineStyle>
+					<color>ff000000</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor4254">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor4251</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor4253</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor4251">
+				<LineStyle>
+					<color>ff000000</color>
+					<width>1.5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>640000aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>Carreteable area pecuaria 3</name>
+				<visibility>0</visibility>
+				<Placemark>
+					<visibility>0</visibility>
+					<styleUrl>#falseColor4254</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Carreteable_area_pecuaria_3_I">
+							<SimpleData name="id_2">0</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<LineString>
+						<coordinates>
+							-74.92803229655345,4.172633044256369,0 -74.92780469084117,4.172619655685037,0 -74.92748336512976,4.172606267113745,0 -74.92678046513601,4.172432215686714,0 -74.92650599942415,4.172291635687953,0 -74.92705493084786,4.171200467126246,0 -74.9270616251335,4.171146912841,0 -74.92714865084703,4.171059887127484,0 -74.92720889941792,4.171073275698816,0 -74.92803229655345,4.171635595693783,0 -74.92809254512437,4.171762787121254,0 -74.92805907369608,4.171943532833931,0 -74.92812601655264,4.172010475690469,0 -74.92820634798048,4.171970309976514,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Placemark>
+			<name>CARRETEABLE PORTERIA PRINCIPAL- BIENESTAR APRENDIZ</name>
+			<visibility>0</visibility>
+			<Camera>
+				<longitude>-74.92852444829049</longitude>
+				<latitude>4.170985362344013</latitude>
+				<altitude>362.7992443037032</altitude>
+				<heading>8.756957889519265</heading>
+				<tilt>21.08180373717304</tilt>
+				<roll>2.096116473634352</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#falseColor4254</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-74.92826037882507,4.171913555084863,0 -74.92840808828669,4.172314473034799,0 -74.92856349503975,4.172384049897896,0 -74.92858896207281,4.172595751146853,0 -74.92858609969454,4.172833409864689,0 -74.92859561535587,4.172937378878519,0 -74.92857815585779,4.17306756210047,0 -74.92857516344239,4.173143556950944,0 -74.92841021723034,4.173279830917736,0 -74.92840624559257,4.173412881132403,0 -74.92806669423496,4.173487089942032,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>PORTERIA PRINCIPAL-UNIDAD APICULTURA</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor4254</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-74.92824336986907,4.171891526154607,0 -74.92801931557109,4.172598610646696,0 -74.92759580591016,4.172563525498733,0 -74.92748382181648,4.172578394811329,0 -74.92738461014882,4.1725386962008,0 -74.92652722095988,4.172495046234754,0 -74.92647799088171,4.172455350088024,0 -74.92615594970148,4.172384760110529,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor4254</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Carreteable_area_pecuaria_I">
+					<SimpleData name="id_2">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					-74.92823647226594,4.171879937120195,0 -74.928196306552,4.172027211404603,0 -74.92826324940856,4.172107542832473,0 -74.92843060654992,4.172114237118119,0 -74.92864482369086,4.17212762568941,0 -74.92882556940351,4.172174485689011,0 -74.92908664654409,4.17233514854475,0 -74.9294414436838,4.172562754256988,0 -74.9295284693973,4.172636391399172,0 -74.92956863511122,4.172710028541395,0 -74.92960210653952,4.172937634253673,0 -74.92961549511081,4.173258959965112,0 -74.92959541225385,4.173600368533488,0 -74.92955524653992,4.173928388530572,0 -74.92962218939647,4.174042191386711,0 -74.92964896653909,4.174182771385473,0 -74.92942136082682,4.174899059950534,0 -74.92930755797067,4.175046334234942,0 -74.92918036654325,4.17511327709148,0 -74.92912011797236,4.175133359948418,0 -74.92901300940189,4.175099888520188,0 -74.92766076369959,4.174403682812065,0 -74.92762729227133,4.174383599955087,0 -74.92774109512746,4.173774419960519,0 -74.92734613227381,4.173761031389187,0 -74.92672356370794,4.173720865675272,0 -74.92634868371125,4.173734254246604,0 -74.92624826942642,4.173781114246165,0 -74.92616124371291,4.173794502817496,0 -74.92592694371501,4.173720865675272,0 -74.92523743229256,4.173433011392103,0 -74.92473536086845,4.173178628537242,0 -74.92437386944307,4.173011271395857,0 -74.92436048087178,4.172964411396296,0 -74.92498974372332,4.171096705698556,0 -74.9250366037229,4.17096281998552,0 -74.92518387800732,4.17083562855805,0 -74.92539140086262,4.170574551417503,0 -74.92562570086055,4.170266614277396,0 -74.92565917228883,4.17017958856388,0 -74.9256926437171,4.170112645707302,0 -74.92577966943063,4.170139422849966,0 -74.92591355514371,4.170273308563042,0 -74.92610768942771,4.17046744284705,0 -74.92624157514079,4.170661577131019,0 -74.92638215513954,4.170822239986718,0 -74.92701811227676,4.171143565698157,0 -74.92702480656241,4.171143565698157,0 -74.92708505513332,4.171096705698556,0 -74.92717877513248,4.171056539984641,0 -74.92740638084473,4.171190425697757,0 -74.92800886655367,4.171618859979689,0 -74.92808919798152,4.171759439978411,0 -74.92804903226758,4.171940185691088,0 -74.92811597512414,4.172020517118957,0 -74.9282096951233,4.171960268548065,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

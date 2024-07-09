@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>pecuariacanales}.kml</name>
+	<StyleMap id="pointStyleMap110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle80</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle20">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle200">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle80">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="pointStyleMap1100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle800</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle800">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>pecuaria</name>
+		<open>1</open>
+		<Placemark>
+			<name>Canal de drenaje potreros de ganaderia</name>
+			<styleUrl>#pointStyleMap1100</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-74.9246493859884,4.169098791370659,0 -74.92407848401076,4.170297493692923,0 -74.92384928551786,4.170791469320442,0 -74.9236430887774,4.171291482969711,0 -74.92345746491777,4.171840061585487,0 -74.92357827493255,4.172238987821355,0 -74.92381707864011,4.172775181127444,0 -74.92401291206846,4.173105583294231,0 -74.92421746482133,4.17339242498308,0 -74.92441779289131,4.173673837836153,0 -74.92442839583345,4.173768183895039,0 -74.92443572958156,4.173830849296047,0 -74.92444623559936,4.173946141798218,0 -74.92445495491057,4.174036299966875,0 -74.924430111761,4.174309822407732,0 -74.92438463023549,4.174671272464364,0 -74.92435033787147,4.174860263142374,0 -74.92428907796786,4.175135101876988,0 -74.92425120199678,4.175305986452189,0 -74.92416475804789,4.175629697890842,0 -74.92413631896139,4.175868999081621,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Canal de riego primaria</name>
+			<styleUrl>#pointStyleMap110</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-74.92820483145995,4.17161769545662,0 -74.92808871159879,4.171548316434816,0 -74.92762852659521,4.171247191219011,0 -74.92741556832287,4.171106059479416,0 -74.92728414656662,4.171026465989788,0 -74.92722372535725,4.170990106290761,0 -74.92719365465061,4.171138172227115,0 -74.92691042586857,4.171593533837269,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

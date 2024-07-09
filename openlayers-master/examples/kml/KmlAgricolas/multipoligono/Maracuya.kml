@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PASSIFLORAS.shp</name>
+	<Schema name="VARIEDADES" id="S_VARIEDADES_ISI1">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Variedad"><displayName>&lt;b&gt;Variedad&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="PASSIFLORAS" id="S_PASSIFLORAS_II">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="pointStyleMap116">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle86</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle26</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle86">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_wht-diamond">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle26">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_wht-diamond">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>MARACUYA AMARILLA</name>
+		<styleUrl>#pointStyleMap116</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI1">
+				<SimpleData name="id_2">6</SimpleData>
+				<SimpleData name="Variedad">MARACUYA AMARILLA</SimpleData>
+				<SimpleData name="AREA">3322</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93175714115253,4.168635422704901,0 -74.93123831069167,4.168360124909341,0 -74.93107830855405,4.168777777547934,0 -74.93160655090539,4.169069546151771,0 -74.93175714115253,4.168635422704901,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>MARACUYA AMARILLA</name>
+		<styleUrl>#pointStyleMap116</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI1">
+				<SimpleData name="id_2">7</SimpleData>
+				<SimpleData name="Variedad">MARACUYA AMARILLA</SimpleData>
+				<SimpleData name="AREA">2310</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93181184776576,4.168131592444428,0 -74.93144890173063,4.167913354263941,0 -74.93129007608908,4.16834806592469,0 -74.93165125738742,4.168541009660598,0 -74.93181184776576,4.168131592444428,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Folder id="layer 0">
+		<name>PASSIFLORAS</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap116</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_PASSIFLORAS_II">
+					<SimpleData name="id_2">0</SimpleData>
+					<SimpleData name="AREA">10705</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.93105955517514,4.168778157425463,0 -74.93186483080731,4.16924828944194,0 -74.93189741421438,4.169183122627755,0 -74.93193930716637,4.169066753316728,0 -74.93198120011832,4.168945729233333,0 -74.93206498602223,4.168768847880569,0 -74.93210687897422,4.168568692665646,0 -74.93212549806397,4.168461632899514,0 -74.93213480760885,4.168382501768027,0 -74.93210222420177,4.168298715864092,0 -74.93139935356328,4.167903060206655,0 -74.93105955517514,4.168778157425463,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Maracuya</name>
+		<LookAt>
+			<longitude>-74.93054402187153</longitude>
+			<latitude>4.16892050419594</latitude>
+			<altitude>0</altitude>
+			<heading>4.476589488903889e-005</heading>
+			<tilt>44.99999349668098</tilt>
+			<range>1004.763656192895</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_wht-diamond</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.93165240791761,4.168463096414042,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

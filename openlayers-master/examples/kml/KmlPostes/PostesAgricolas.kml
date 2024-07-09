@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PostesAgricolas.kml</name>
+	<Schema name="POSTES AREA AGRICOLA" id="S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="descriptio"><displayName>&lt;b&gt;descriptio&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="timestamp"><displayName>&lt;b&gt;timestamp&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="begin"><displayName>&lt;b&gt;begin&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="end"><displayName>&lt;b&gt;end&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="altitudeMo"><displayName>&lt;b&gt;altitudeMo&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="tessellate"><displayName>&lt;b&gt;tessellate&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="extrude"><displayName>&lt;b&gt;extrude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="visibility"><displayName>&lt;b&gt;visibility&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="drawOrder"><displayName>&lt;b&gt;drawOrder&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="icon"><displayName>&lt;b&gt;icon&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="cordenada"><displayName>&lt;b&gt;cordenada&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="cordenadaY"><displayName>&lt;b&gt;cordenadaY&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="normPointStyle13">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="pointStyleMap102">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle101">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>PostesAgricolas</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>PM109</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">021</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 19:40:57.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93133293247333,4.168965630292054,358.69</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PM110</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">022</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 19:43:13.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93172521658946,4.169195950170543,361.77</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PU111</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">023</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 19:45:13.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93201121658488,4.169362950167215,361.46</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PU112</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">024</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 19:48:51.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93238974279848,4.169545455834434,362.35</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PU113</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">025</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 19:52:27.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.9325581467516,4.16931922198454,361.68</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PH107</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">026</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 20:00:49.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93085649117822,4.169033211132058,356.45</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PH106</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">027</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 20:04:52.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93062825166986,4.169333244667874,357.65</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PC105</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">028</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 20:07:48.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93040199999999,4.169633999999993,357.18</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PC104</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">029</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 20:09:28.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93019699999999,4.169929999999984,362.78</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PC103</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">030</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 20:12:22.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93000142517225,4.170177381566775,358.89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PC102</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">031</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 20:14:13.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92977468900807,4.170467904442132,361.6</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PM101</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">032</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 20:25:21.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92956139858148,4.170714302672871,349.65</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PG108</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_AGRICOLA_SSSSSSIIIISII">
+					<SimpleData name="Name">020</SimpleData>
+					<SimpleData name="descriptio"></SimpleData>
+					<SimpleData name="timestamp">2018/10/02 19:38:12.000</SimpleData>
+					<SimpleData name="begin"></SimpleData>
+					<SimpleData name="end"></SimpleData>
+					<SimpleData name="altitudeMo"></SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">0</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+					<SimpleData name="drawOrder">0</SimpleData>
+					<SimpleData name="icon"></SimpleData>
+					<SimpleData name="cordenada">-75</SimpleData>
+					<SimpleData name="cordenadaY">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.93103397161433,4.16880468418785,364.09</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

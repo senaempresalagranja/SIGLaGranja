@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Construcciones agricolas</name>
+	<Document>
+		<name>caseta bpa.kml</name>
+		<Schema name="INFRAESTRUCTURA" id="S_INFRAESTRUCTURA_IS">
+			<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="CASETA_BPA"><displayName>&lt;b&gt;CASETA BPA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="pointStyleMap1100">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle800</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle200</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="hlightPointStyle200">
+			<IconStyle>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>fcffffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle>
+				<color>ff0055ff</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>990055ff</color>
+			</PolyStyle>
+		</Style>
+		<Style id="normPointStyle800">
+			<IconStyle>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>fcffffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle>
+				<color>ff0055ff</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>990055ff</color>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<name>caseta bpa</name>
+			<styleUrl>#pointStyleMap1100</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_INFRAESTRUCTURA_IS">
+					<SimpleData name="id_2">22</SimpleData>
+					<SimpleData name="CASETA_BPA">NIVEL FREATICO</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.93106919078527,4.167675777531255,0 -74.9310427198434,4.167667542127096,0 -74.93103742565502,4.167686954151164,0 -74.93106095538114,4.1676975425279,0 -74.93106919078527,4.167675777531255,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>caseta de riego.kml</name>
+		<Schema name="INFRAESTRUCTURA" id="S_INFRAESTRUCTURA_IS0">
+			<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="CASETA_BPA"><displayName>&lt;b&gt;CASETA BPA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle201">
+			<IconStyle>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>fcffffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle>
+				<color>ff0055ff</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>990055ff</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="pointStyleMap1101">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle801</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle201</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="normPointStyle801">
+			<IconStyle>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>fcffffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle>
+				<color>ff0055ff</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>990055ff</color>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<name>caseta de riego</name>
+			<styleUrl>#pointStyleMap1101</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_INFRAESTRUCTURA_IS0">
+					<SimpleData name="id_2">42</SimpleData>
+					<SimpleData name="CASETA_BPA">CASETA DE RIEGO</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.93252575436219,4.169186606539195,0 -74.93247928315311,4.169153076679466,0 -74.93245281221121,4.169192488970697,0 -74.93249869517715,4.169223077614674,0 -74.93252575436219,4.169186606539195,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>shakira.kml</name>
+		<Schema name="INFRAESTRUCTURA" id="S_INFRAESTRUCTURA_IS1">
+			<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="CASETA_BPA"><displayName>&lt;b&gt;CASETA BPA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle202">
+			<IconStyle>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>fcffffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle>
+				<color>ff0055ff</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>990055ff</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="pointStyleMap1102">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle802</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle202</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="normPointStyle802">
+			<IconStyle>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>fcffffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle>
+				<color>ff0055ff</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>990055ff</color>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<name>shakira</name>
+			<styleUrl>#pointStyleMap1102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_INFRAESTRUCTURA_IS1">
+					<SimpleData name="id_2">8</SimpleData>
+					<SimpleData name="CASETA_BPA">SHAKIRA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.93113001955059,4.168908907820454,0 -74.93102884193785,4.168851260110889,0 -74.9309628117807,4.168954790691357,0 -74.93107296008293,4.16901890906225,0 -74.93113001955059,4.168908907820454,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+</Folder>
+</kml>

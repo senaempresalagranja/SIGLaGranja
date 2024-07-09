@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MANGOPoligono.kml</name>
+	<Schema name="VARIEDADES" id="S_VARIEDADES_ISI">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Variedad"><displayName>&lt;b&gt;Variedad&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="MANGO" id="S_MANGO_II">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="pointStyleMap11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-diamond">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-diamond">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle8">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle2">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>MANGO</name>
+		<Folder>
+			<name>variedades</name>
+			<open>1</open>
+			<Placemark>
+				<name>TOMMY</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+						<SimpleData name="id_2">13</SimpleData>
+						<SimpleData name="Variedad">TOMMY</SimpleData>
+						<SimpleData name="AREA">7522</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92801209126701,4.167807911690948,0 -74.92750126778049,4.168302274301956,0 -74.92755705675998,4.168346762082615,0 -74.92695913587581,4.168933809044257,0 -74.92733149379161,4.169071457942057,0 -74.92845033226851,4.167949090006227,0 -74.92801209126701,4.167807911690948,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>VANDIQUE</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+						<SimpleData name="id_2">20</SimpleData>
+						<SimpleData name="Variedad">VANDIQUE</SimpleData>
+						<SimpleData name="AREA">1941</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.9276179682071,4.167679086399034,0 -74.92659898400542,4.168731306338853,0 -74.92667295558191,4.16877468927138,0 -74.92775149940282,4.167725263486508,0 -74.9276179682071,4.167679086399034,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>FILIPINO</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+						<SimpleData name="id_2">19</SimpleData>
+						<SimpleData name="Variedad">FILIPINO</SimpleData>
+						<SimpleData name="AREA">1226</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92775153616802,4.16772533701693,0 -74.92668648517442,4.168761159678853,0 -74.9267419270916,4.168798807240641,0 -74.92782418419742,4.167746697596395,0 -74.92775153616802,4.16772533701693,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>KEITT</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+						<SimpleData name="id_2">15</SimpleData>
+						<SimpleData name="Variedad">KEITT</SimpleData>
+						<SimpleData name="AREA">969</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92782414743218,4.167746734361586,0 -74.92674619185443,4.168791454201224,0 -74.92679383954985,4.168823807574644,0 -74.92787385397861,4.167763793413077,0 -74.92782414743218,4.167746734361586,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>YULIMA</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+						<SimpleData name="id_2">17</SimpleData>
+						<SimpleData name="Variedad">YULIMA</SimpleData>
+						<SimpleData name="AREA">589</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92795003146694,4.167787911382299,0 -74.92787414810024,4.167763205169903,0 -74.92740237707511,4.168225858429806,0 -74.92745590720568,4.168270564894776,0 -74.92795003146694,4.167787911382299,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>MANREY</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+						<SimpleData name="id_2">18</SimpleData>
+						<SimpleData name="Variedad">MANREY</SimpleData>
+						<SimpleData name="AREA">713</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92740267121313,4.168226446654675,0 -74.92679339836748,4.168824542878582,0 -74.92685031089252,4.16886219044037,0 -74.92745561309447,4.168269976648005,0 -74.92740267121313,4.168226446654675,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>KEITT</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+						<SimpleData name="id_2">14</SimpleData>
+						<SimpleData name="Variedad">KEITT</SimpleData>
+						<SimpleData name="AREA">1049</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92794944322378,4.167787911382299,0 -74.92684986971014,4.168862337501174,0 -74.92689384088581,4.168890720233298,0 -74.92801209111954,4.167807911649542,0 -74.92794944322378,4.167787911382299,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>KEITT</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+						<SimpleData name="id_2">16</SimpleData>
+						<SimpleData name="Variedad">KEITT</SimpleData>
+						<SimpleData name="AREA">779</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92750090782209,4.168301741777651,0 -74.9268941350074,4.168890720233298,0 -74.92696001824055,4.16893351492269,0 -74.92755855564867,4.168346154134484,0 -74.92750090782209,4.168301741777651,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<styleUrl>#pointStyleMap11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_MANGO_II">
+					<SimpleData name="id_2">0</SimpleData>
+					<SimpleData name="AREA">19294</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92741850469319,4.167585662176956,0 -74.92648344829838,4.168730629191035,0 -74.92697960067113,4.169016870944535,0 -74.92730400799175,4.169131367645935,0 -74.9285253061401,4.167938693672992,0 -74.92741850469319,4.167585662176956,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Mango</name>
+		<LookAt>
+			<longitude>-74.92615839898565</longitude>
+			<latitude>4.167907801308526</latitude>
+			<altitude>0</altitude>
+			<heading>12.51851525841435</heading>
+			<tilt>24.85363522729663</tilt>
+			<range>787.1854897006576</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_wht-diamond</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.92743643027123,4.168345186292922,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

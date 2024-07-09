@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PunCaf_Instruct.kml</name>
+	<Style id="sn_coffee0">
+		<IconStyle>
+			<color>ff00aaaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_coffee0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_coffee0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_coffee</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_coffee">
+		<IconStyle>
+			<color>ff00aaaa</color>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Cafeteria Instructores</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>-74.92827728705375</longitude>
+			<latitude>4.172750331059132</latitude>
+			<altitude>0</altitude>
+			<heading>-5.425549878012244</heading>
+			<tilt>30.57190109523386</tilt>
+			<range>107.22509555552</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_coffee0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.92815293313129,4.172643011249629,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

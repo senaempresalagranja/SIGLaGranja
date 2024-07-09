@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CITRICOS.shp</name>
+	<Schema name="VARIEDADES" id="S_VARIEDADES_ISI">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Variedad"><displayName>&lt;b&gt;Variedad&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="hlightPointStyle2">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle80">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="pointStyleMap110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle80</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle8">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle20">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>LIMA COMUN</name>
+		<styleUrl>#pointStyleMap110</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">21</SimpleData>
+				<SimpleData name="Variedad">LIMA COMUN</SimpleData>
+				<SimpleData name="AREA">1122</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.92984750507283,4.170674552752236,0 -74.92992985894367,4.17072396507475,0 -74.92990515278237,4.170766318494041,0 -74.93010986097568,4.170869260832615,0 -74.93012339054015,4.170842201703597,0 -74.93022633287869,4.170901614138969,0 -74.93025162728189,4.170859260719717,0 -74.93030456905599,4.170893966993852,0 -74.93034692247531,4.170773377397223,0 -74.92994074141947,4.170533374687957,0 -74.92984750507283,4.170674552752236,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>TAHITI</name>
+		<styleUrl>#pointStyleMap110</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">1</SimpleData>
+				<SimpleData name="Variedad">TAHITI</SimpleData>
+				<SimpleData name="AREA">2512</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.92918122440771,4.170562507235571,0 -74.92924926302524,4.170566683887476,0 -74.92950240453205,4.170691038043448,0 -74.9295253460479,4.170651037634543,0 -74.92955869728664,4.170671015104581,0 -74.92966123024422,4.170489858774285,0 -74.92959770019695,4.17045103483586,0 -74.92960867884739,4.170427491139708,0 -74.9297000034077,4.170476315220286,0 -74.92973338613753,4.17041866751068,0 -74.92963666043598,4.170363776201382,0 -74.92922651911714,4.17013220747215,0 -74.92904122256412,4.170501035821852,0 -74.92918122440771,4.170562507235571,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>MAND. ONECO</name>
+		<styleUrl>#pointStyleMap110</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">22</SimpleData>
+				<SimpleData name="Variedad">MAND. ONECO</SimpleData>
+				<SimpleData name="AREA">2691</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93002324235079,4.170582492889463,0 -74.93014559667313,4.170376608212356,0 -74.92932911686796,4.169927191374332,0 -74.92922617452939,4.170131899567608,0 -74.93002324235079,4.170582492889463,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>MAND. CLEMENTINA</name>
+		<styleUrl>#pointStyleMap110</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">23</SimpleData>
+				<SimpleData name="Variedad">MAND. CLEMENTINA</SimpleData>
+				<SimpleData name="AREA">729</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93002294822978,4.170581904647568,0 -74.93023383296328,4.170706023695727,0 -74.93035648140666,4.170494256599269,0 -74.93014500843118,4.170378078817194,0 -74.93002294822978,4.170581904647568,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>MINEOLA</name>
+		<styleUrl>#pointStyleMap110</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">24</SimpleData>
+				<SimpleData name="Variedad">MINEOLA</SimpleData>
+				<SimpleData name="AREA">1330</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.92980323986721,4.170192194365883,0 -74.92990515278235,4.170026751321778,0 -74.92941705903714,4.169753954124627,0 -74.9293294109889,4.169927191374332,0 -74.92980323986721,4.170192194365883,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>SWEET</name>
+		<styleUrl>#pointStyleMap110</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">28</SimpleData>
+				<SimpleData name="Variedad">SWEET</SimpleData>
+				<SimpleData name="AREA">1861</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.92973470968184,4.169931897309813,0 -74.93017280286261,4.170176900075568,0 -74.93031839274141,4.16991586771712,0 -74.92987706422998,4.169672482616686,0 -74.92973470968184,4.169931897309813,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>SALUSTIANA</name>
+		<styleUrl>#pointStyleMap110</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">29</SimpleData>
+				<SimpleData name="Variedad">SALUSTIANA</SimpleData>
+				<SimpleData name="AREA">1840</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93017265580212,4.170176900075568,0 -74.93061383725306,4.170415726301044,0 -74.93075030938186,4.170153958640137,0 -74.93031809862043,4.169915573596152,0 -74.93017265580212,4.170176900075568,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>FROST WASHINGTON</name>
+		<styleUrl>#pointStyleMap110</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">30</SimpleData>
+				<SimpleData name="Variedad">FROST WASHINGTON</SimpleData>
+				<SimpleData name="AREA">1388</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93061266076919,4.17041631454298,0 -74.93093501734933,4.170594551849134,0 -74.93108796025233,4.170341019575359,0 -74.93075001526093,4.170154546882072,0 -74.93061266076919,4.17041631454298,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>WASHINGTON SANGRE</name>
+		<styleUrl>#pointStyleMap110</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">31</SimpleData>
+				<SimpleData name="Variedad">WASHINGTON SANGRE</SimpleData>
+				<SimpleData name="AREA">1423</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93095619405899,4.170938085138949,0 -74.93125972689721,4.170438079494541,0 -74.93108796025233,4.170341607817294,0 -74.93078678038182,4.170842789945533,0 -74.93095619405899,4.170938085138949,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Document>
+		<name>PATRONAJE 1.shp</name>
+		<Schema name="PATRONAJE 1" id="S_PATRONAJE_1_IS">
+			<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="PATRONAJE"><displayName>&lt;b&gt;PATRONAJE&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle2">
+			<IconStyle>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>fcffffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle>
+				<color>ff00ab00</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>64005500</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="pointStyleMap11">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle8</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle2</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="normPointStyle8">
+			<IconStyle>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>fcffffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle>
+				<color>ff00ab00</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>64005500</color>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>PATRONAJE 1</name>
+			<Placemark>
+				<name>SWNKY X ALEMOW</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">1</SimpleData>
+						<SimpleData name="PATRONAJE">SWNKY X ALEMOW</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92983331819326,4.169649790545464,0 -74.92985648951638,4.169614338629901,0 -74.92956845780947,4.169454833090844,0 -74.92954882523048,4.169493068826622,0 -74.92983331819326,4.169649790545464,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>SWNKY X ENGLISH</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">2</SimpleData>
+						<SimpleData name="PATRONAJE">SWNKY X ENGLISH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92995857338258,4.169718321057689,0 -74.92998110396469,4.169683431291293,0 -74.92994167057155,4.169661586887727,0 -74.92991971264608,4.169696968676866,0 -74.92995857338258,4.169718321057689,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>VOLKAMERIANA</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">3</SimpleData>
+						<SimpleData name="PATRONAJE">VOLKAMERIANA</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.93044810008801,4.169987706763392,0 -74.93047111505368,4.169954838745285,0 -74.93013111128073,4.169766822036163,0 -74.93010802283132,4.169800498828438,0 -74.93044810008801,4.169987706763392,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>CPB 4475</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">4</SimpleData>
+						<SimpleData name="PATRONAJE">CPB 4475</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.93047089446297,4.169954765215023,0 -74.93044832067875,4.169987486172646,0 -74.93065861717034,4.170103590424499,0 -74.93067788209372,4.170071310648327,0 -74.93047089446297,4.169954765215023,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>CLEOPATRA</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">5</SimpleData>
+						<SimpleData name="PATRONAJE">CLEOPATRA</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.93080839827293,4.17014359087605,0 -74.93067780856347,4.170071310648327,0 -74.93065847010988,4.170103516894237,0 -74.93078861863789,4.170175576531214,0 -74.93080839827293,4.17014359087605,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>CARRIZO</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">6</SimpleData>
+						<SimpleData name="PATRONAJE">CARRIZO</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.93094913515577,4.170221312341633,0 -74.93080825121247,4.170143370285304,0 -74.93078839804716,4.170175723591698,0 -74.93093089965582,4.170254695071454,0 -74.93094913515577,4.170221312341633,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>TROYER</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">7</SimpleData>
+						<SimpleData name="PATRONAJE">TROYER</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.93108634258704,4.170297636732681,0 -74.93094928221629,4.170221165281149,0 -74.93093060553484,4.170254842131937,0 -74.93106884238947,4.170330284160042,0 -74.93108634258704,4.170297636732681,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>KRIDER</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">8</SimpleData>
+						<SimpleData name="PATRONAJE">KRIDER</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.93125972689722,4.170437785373573,0 -74.93128119772787,4.170403961462341,0 -74.93108634258702,4.170297195551189,0 -74.93106825414753,4.170330137099558,0 -74.93125972689722,4.170437785373573,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>FRYING DRAGON</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">50</SimpleData>
+						<SimpleData name="PATRONAJE">FRYING DRAGON</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.92983331819343,4.169649790545584,0 -74.92991977627808,4.169696981357323,0 -74.92994166553518,4.169661585950677,0 -74.92985647572945,4.169614320247246,0 -74.92983331819343,4.169649790545584,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>FRYING DRAGON</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">51</SimpleData>
+						<SimpleData name="PATRONAJE">FRYING DRAGON</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.9300022728806,4.169742354000405,0 -74.93002400530986,4.169707198143939,0 -74.92998110435649,4.169683431405122,0 -74.92995855411033,4.169718336940265,0 -74.9300022728806,4.169742354000405,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>SWNKY X ENGLISH</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">52</SimpleData>
+						<SimpleData name="PATRONAJE">SWNKY X ENGLISH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.93003516306339,4.169760480682401,0 -74.93005719019108,4.169725587929034,0 -74.93002402871913,4.169707163819956,0 -74.93000227496299,4.16974235637007,0 -74.93003516306339,4.169760480682401,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>FRYING DRAGON</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">53</SimpleData>
+						<SimpleData name="PATRONAJE">FRYING DRAGON</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.93003520902025,4.16976045540614,0 -74.93008072661594,4.16978548589606,0 -74.93010335386678,4.169751043439174,0 -74.93005706380971,4.169725484526068,0 -74.93003520902025,4.16976045540614,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>SWNKY X ENGLISH</name>
+				<styleUrl>#pointStyleMap11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PATRONAJE_1_IS">
+						<SimpleData name="id_2">55</SimpleData>
+						<SimpleData name="PATRONAJE">SWNKY X ENGLISH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.93013147947113,4.16976674230594,0 -74.93010331710129,4.169751080204684,0 -74.93008072660699,4.169785485851176,0 -74.93010802308477,4.169800493031115,0 -74.93013147947113,4.16976674230594,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Placemark>
+		<name>WASHINGTON SANGRE</name>
+		<styleUrl>#pointStyleMap11</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">40</SimpleData>
+				<SimpleData name="Variedad">WASHINGTON SANGRE</SimpleData>
+				<SimpleData name="AREA">414</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93031842950647,4.169866823045836,0 -74.93042240126842,4.169926823723142,0 -74.93053166720776,4.169744174602434,0 -74.93047725482882,4.169714762505716,0 -74.93054960858677,4.169596231755901,0 -74.93049924037109,4.169567738787197,0 -74.93031842950647,4.169866823045836,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>STR RUBY</name>
+		<styleUrl>#pointStyleMap11</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">33</SimpleData>
+				<SimpleData name="Variedad">STR RUBY</SimpleData>
+				<SimpleData name="AREA">805</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93000118327817,4.169299831351121,0 -74.93004824263295,4.169327478722034,0 -74.92988294664933,4.169621599689335,0 -74.92999853618949,4.16968542393922,0 -74.93021706806819,4.169290125359191,0 -74.93004706614907,4.169205712641615,0 -74.93000118327817,4.169299831351121,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>LIMA NARANJA</name>
+		<styleUrl>#pointStyleMap11</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">34</SimpleData>
+				<SimpleData name="Variedad">LIMA NARANJA</SimpleData>
+				<SimpleData name="AREA">415</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.92999853618949,4.169686012181155,0 -74.930047948512,4.16971218894727,0 -74.93021089152788,4.169419832705774,0 -74.93026534067192,4.16944876685593,0 -74.9303280252031,4.169345420101056,0 -74.93021699453796,4.169290198889413,0 -74.92999853618949,4.169686012181155,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>POMELO ROJO</name>
+		<styleUrl>#pointStyleMap11</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">35</SimpleData>
+				<SimpleData name="Variedad">POMELO ROJO</SimpleData>
+				<SimpleData name="AREA">618</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93026530390679,4.169448656560557,0 -74.9302107812325,4.169419869470885,0 -74.93004765439103,4.169712483068238,0 -74.93015471442313,4.169772777866512,0 -74.93038295229376,4.169373361592936,0 -74.93032780461238,4.169345273040572,0 -74.93026530390679,4.169448656560557,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>WASHINGTON SANGRE</name>
+		<styleUrl>#pointStyleMap11</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">37</SimpleData>
+				<SimpleData name="Variedad">WASHINGTON SANGRE</SimpleData>
+				<SimpleData name="AREA">518</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.9301544203021,4.169772189624577,0 -74.93031853980187,4.16986660245509,0 -74.93043207049526,4.169681012124746,0 -74.93026206857617,4.169585422810362,0 -74.9301544203021,4.169772189624577,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>TAHITI</name>
+		<styleUrl>#pointStyleMap11</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">38</SimpleData>
+				<SimpleData name="Variedad">TAHITI</SimpleData>
+				<SimpleData name="AREA">35</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93043383522107,4.169530422189465,0 -74.93045883550326,4.1694860099234,0 -74.93041052613438,4.169459208150279,0 -74.93038530526145,4.169502480697584,0 -74.93043383522107,4.169530422189465,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>LIMA RANGPUR</name>
+		<styleUrl>#pointStyleMap11</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_VARIEDADES_ISI">
+				<SimpleData name="id_2">39</SimpleData>
+				<SimpleData name="Variedad">LIMA RANGPUR</SimpleData>
+				<SimpleData name="AREA">447</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.93041052613438,4.169459355210763,0 -74.93045898256375,4.169486156983924,0 -74.93043376169078,4.169530422189465,0 -74.93038545232191,4.169502480697584,0 -74.93031956922526,4.16961792317724,0 -74.93043221755573,4.169680718003779,0 -74.93052751274912,4.169520127955639,0 -74.93059905767441,4.169564724047299,0 -74.93063633750703,4.169500127729844,0 -74.93044280591056,4.169403067810622,0 -74.93041052613438,4.169459355210763,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>LimonComun</name>
+		<LookAt>
+			<longitude>-74.93050361872197</longitude>
+			<latitude>4.169809338736088</latitude>
+			<altitude>0</altitude>
+			<heading>0.0001604634919542957</heading>
+			<tilt>45.00001678175031</tilt>
+			<range>518.4281300739618</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-74.92941743938533,4.170304804663011,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

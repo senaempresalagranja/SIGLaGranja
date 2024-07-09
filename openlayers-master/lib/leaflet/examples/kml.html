@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Leaflet</title>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+	<script src="../layer/vector/KML.js"></script>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!--me varia las escalas de la Pagina -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--Compatibilidad con los Dispositivos Móviles apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>
+      Agricola
+    </title>
+  <!-- Llamo Todas Las Librerias para que mi Mapping se visualice Correctamente  -->
+  <!--Aquí llamo La librería de Openlayers que me carga el Mapa Base del mundo -->
+    <script src="../../lib/OpenLayers.js"></script>
+  <!--Aquí llamo una Librería que desarrollé para Configurar los Popups que salen al dar click en el marcador -->
+    <script src="../../lib/FeaturePopups.js"></script>
+  <!--Aquí llamo una Librería que desarrollé para  Traer la Consulta en un Popup a Través de Funciones          Javascript -->
+    <script type="text/javascript" src="Consultas/Js/PopupConsulta.js"></script>
+  <!--Esta librería es Opcional por si queremos Cargar los estilos Propios de Open layers al Mapa Base -->
+    <link rel="stylesheet" href="../../theme/default/style.css" type="text/css">
+  <!--En Esta Librería llamo todos los Estilos Desarrollados Para la interfaz gráfica del Aplicativo "SIGLaGranja Como Por ejemplo La ubicación del Banner,  Menú, Cuerpo y Pie de Página" -->
+    <link rel="stylesheet" href="../style.css" type="text/css">
+  <!--En Esta Librería llamo todos Los Estilos que va a poseer El Popup cuando se abra -->
+    <link rel="stylesheet" type="../text/css" href="Consultas/Css/StyleConsulta.css">
+  <!--Aquí llamo Los Estilos propios del Visor -->
+</head>
+<body>
+	<!-- define a DIV into which the map will appear. Make it take up the whole window -->
+	<div style="width:100%; height:100%" id="map"></div>
+<script type='text/javascript'>
+var map = new L.Map('map', {center: new L.LatLng(58.4, 43.0), zoom: 11});
+var osm = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+var track = new L.KML("Lote1.kml", {async: true});
+track.on("loaded", function(e) { map.fitBounds(e.target.getBounds()); });
+ var group = [lote1];
+        for (var i=0; i < group.length; i++) { group[i].group = 'Lote 1'; }
+        map.addLayers([lote1]);
+map.addLayer(osm);
+map.addControl(new L.Control.Layers({}, {'hola':track},{'ejemplo':track}));
+
+</script>
+ 
+</body>
+</html>

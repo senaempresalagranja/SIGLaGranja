@@ -1,0 +1,36 @@
+#titulo
+        {
+            font-family: Cambria;
+            text-align: center;
+        }
+        .imagen{
+            width: 32px;
+            text-align: center;
+        }
+        tr{
+            font-size: 12px;
+
+           
+        }
+       
+        .whilefor{
+            font-weight: normal;
+            background-color: #F2F2F2;
+        }
+        .whilefor1{
+            font-weight: normal;
+            background-color:#E0E6F8;
+            
+        }
+        .celdatd{
+            background-color: #F2F2F2;
+            border-style: solid 10px;
+        }
+        .celdatdazul{
+            background-color:#E0E6F8; 
+        }
+        .tabla0{
+            background-color:#2E64FE;
+            color:white;  
+
+        }

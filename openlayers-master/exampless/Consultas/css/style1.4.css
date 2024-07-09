@@ -1,0 +1,146 @@
+.cont{
+ 
+   width: 961px;
+   height: 280px;
+   border: solid;
+   margin: 200px;
+
+  
+}
+.iframe{
+ margin-top: auto;
+  display:none;
+  }
+.derecha{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 57px;
+    float: left;
+    position: relative;
+    width: 45%;
+    border: steelblue solid 1px;
+    height: auto;
+}
+.izquierda {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+    width: 45%;
+    border: steelblue solid 1px;
+    height: auto;
+}
+
+.iframe.active{
+  display:block;
+}
+
+button{
+        font-family: Cambria;
+        background-color:white;
+        width: 108px;
+        text-align: center;
+        padding: 5px;
+
+ 
+      }
+.AMBIENTAL {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.AMBIENTAL:hover {
+    background-color: #82FA58; /*Ambiental */
+    color: white;
+
+
+}
+.PECUARIA {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.PECUARIA:hover {
+    background-color: #FE2E2E; /*Pecuaria */
+    color: white;
+
+
+}
+.MECANIZACION {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.MECANIZACION:hover {
+    background-color: #2E2EFE; /*Mecanizacion */
+    color: white;
+
+
+}
+.AGROINDUSTRIA {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.AGROINDUSTRIA:hover {
+    background-color: #ffe4c4; /*Agroindustria */
+    color: white;
+
+
+}
+.AGRICOLA {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.AGRICOLA:hover {
+    background-color: #04B404; /*Agricola */
+    color: white;
+
+
+}
+.GESTION {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.GESTION:hover {
+    background-color: #ffff00; /*Gestion */
+    color: white;
+
+
+}
+.INICIO {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.INICIO:hover {
+    background-color: #FA8258; /*Inicio */
+    color: white;
+
+
+}
+

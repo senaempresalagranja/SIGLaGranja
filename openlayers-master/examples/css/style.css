@@ -1,0 +1,17 @@
+.cont{
+  border:solid thin;
+  width:140px;
+  height:140px;
+  padding:20px;
+  margin:150px 650px 750px 340px;
+}
+.iframe{
+  width:100px;
+  height:100px;
+  text-align:center;
+  
+  display:none;
+  }
+.iframe.active{
+  display:block;
+}

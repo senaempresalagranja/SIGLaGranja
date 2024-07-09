@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LOTE 2 AREA AGRICOLA.shp</name>
+	<open>1</open>
+	<Schema name="LOTE 2" id="S_LOTE_2_II">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle213">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle813">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fcffffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ab00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="pointStyleMap1113">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle813</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle213</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>LOTE 2</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap1113</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LOTE_2_II">
+					<SimpleData name="id_2">0</SimpleData>
+					<SimpleData name="AREA">49897</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.93252601329121,4.169402682605075,0 -74.93260486181733,4.169239546505126,0 -74.93243262776227,4.169111283753906,0 -74.93228653380287,4.168927228346351,0 -74.93223891012342,4.168476206315228,0 -74.93213463973987,4.167763434575038,0 -74.93210678281372,4.167516234932243,0 -74.93206090064898,4.167182526272577,0 -74.93153974663522,4.16648784573896,0 -74.93139401107351,4.166263907389576,0 -74.93126373906208,4.166083289516638,0 -74.93120988050802,4.166099836007096,0 -74.93106370242822,4.166423119267377,0 -74.93058820522285,4.167399307300865,0 -74.93024358801975,4.168124670320954,0 -74.9303188047534,4.168188303447002,0 -74.93047775165385,4.168475386141619,0 -74.93108078164151,4.16882602824725,0 -74.9323494440568,4.169561532211583,0 -74.93244522291569,4.169569492879188,0 -74.93252601329121,4.169402682605075,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

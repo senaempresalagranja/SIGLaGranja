@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Panificacion.kml</name>
+	<Schema name="infraestructura pecuaria" id="S_infraestructura_pecuaria_ISS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="area"><displayName>&lt;b&gt;area&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Nombre"><displayName>&lt;b&gt;Nombre&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor9312">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor9314</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor9313</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor9314">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[infraestructura pecuaria/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[infraestructura pecuaria/area]</td></tr>
+  <tr><td><b>Nombre</b></td><td>$[infraestructura pecuaria/Nombre]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff787878</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ccc6f6ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor9313">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[infraestructura pecuaria/id_2]</td></tr>
+  <tr><td><b>area</b></td><td>$[infraestructura pecuaria/area]</td></tr>
+  <tr><td><b>Nombre</b></td><td>$[infraestructura pecuaria/Nombre]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff787878</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ccc6f6ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Panificacion</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#falseColor9312</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_infraestructura_pecuaria_ISS">
+					<SimpleData name="id_2">0</SimpleData>
+					<SimpleData name="area">195.479513891658</SimpleData>
+					<SimpleData name="Nombre"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92759487107371,4.172644142623354,0 -74.92759188588499,4.172727727907568,0 -74.92762273283512,4.172727727907568,0 -74.92767348104334,4.172729718033352,0 -74.92767447610625,4.172765540297987,0 -74.92767945142079,4.172765540297987,0 -74.9277272144403,4.172763550172203,0 -74.92772820950322,4.172721757530096,0 -74.92776204164207,4.172724742718832,0 -74.92775905645333,4.172645137686306,0 -74.92759487107371,4.172644142623354,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Marca de posición sin título</name>
+			<LookAt>
+				<longitude>-74.92769828977235</longitude>
+				<latitude>4.172648487944595</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002117602031127345</heading>
+				<tilt>32.35943658467446</tilt>
+				<range>167.9526178245318</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-74.92769097759242,4.172679452229135,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

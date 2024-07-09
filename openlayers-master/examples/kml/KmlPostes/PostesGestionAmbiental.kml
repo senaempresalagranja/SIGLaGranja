@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PostesGestionAmbiental.kml</name>
+	<Schema name="POSTES AREA PECUARIA" id="S_POSTES_AREA_PECUARIA_ISS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="coorde_x"><displayName>&lt;b&gt;coorde x&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="coorde_y"><displayName>&lt;b&gt;coorde y&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle101">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="hlightPointStyle1010">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="pointStyleMap102">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle130</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle1010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap1020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle13">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle130">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[POSTES TECNOPARQUE/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[POSTES TECNOPARQUE/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[POSTES TECNOPARQUE/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[POSTES TECNOPARQUE/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[POSTES TECNOPARQUE/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[POSTES TECNOPARQUE/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[POSTES TECNOPARQUE/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[POSTES TECNOPARQUE/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[POSTES TECNOPARQUE/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[POSTES TECNOPARQUE/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[POSTES TECNOPARQUE/icon]</td></tr>
+  <tr><td><b>X</b></td><td>$[POSTES TECNOPARQUE/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[POSTES TECNOPARQUE/Y]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>PostesGestionAmbiental</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>PG017</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.92611700000001,4.174552,356.1</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PA020</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.927885,4.17376,356.3</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PI030</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.927984,4.172579,362.9</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PI031</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.92809200000001,4.172459,363.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PP032</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.928172,4.172189,362.7</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PV041</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.926419,4.170853,358.7</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PP045</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.928235,4.171694,359</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PP046</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.928223,4.172061,358.4</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PK047</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.92826100000001,4.172838,354.3</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PP050</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.928551,4.172155,356.8</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL051</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.929033,4.172269,357.2</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL052</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.92904299999999,4.17227,357</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL053</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.928989,4.172532,357.3</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL054</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.92927,4.17239,356.6</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL055</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.929298,4.172437,356.2</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL056</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.929452,4.172522,357</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL057</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.929547,4.172592,357.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL058</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.929861,4.172775,357.3</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL059</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.929836,4.172781,357.8</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL060</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.929799,4.173007,357.2</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL061</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.929738,4.173278,357.4</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL062</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.929935,4.173592,358.2</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL063</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.929683,4.173571,357.6</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PA071</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.928377,4.173498,360.9</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PA073</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.928397,4.173303,360.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PA074</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.928578,4.173104,360.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PA075</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.92810400000001,4.173133,359.7</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PA076</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.928106,4.173163,359.7</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PA081</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">4</SimpleData>
+					<SimpleData name="coorde_x">-74.9288209401815</SimpleData>
+					<SimpleData name="coorde_y">4.17358277218849</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92882094018148,4.173582772188507,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL082</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">5</SimpleData>
+					<SimpleData name="coorde_x">-74.9288644244112</SimpleData>
+					<SimpleData name="coorde_y">4.1732546639094</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92886442441123,4.1732546639094,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PA083</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">6</SimpleData>
+					<SimpleData name="coorde_x">-74.9289000024174</SimpleData>
+					<SimpleData name="coorde_y">4.17298980541904</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92890000241739,4.172989805419021,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PP089</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">8</SimpleData>
+					<SimpleData name="coorde_x">-74.9292083451375</SimpleData>
+					<SimpleData name="coorde_y">4.17278424360564</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92920834513751,4.17278424360565,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PP085</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">9</SimpleData>
+					<SimpleData name="coorde_x">-74.9290225488831</SimpleData>
+					<SimpleData name="coorde_y">4.17259054112762</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92902254888308,4.172590541127632,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PP088</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">10</SimpleData>
+					<SimpleData name="coorde_x">-74.9292202044729</SimpleData>
+					<SimpleData name="coorde_y">4.17261821291019</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.9292202044729,4.172618212910177,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PP086</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">12</SimpleData>
+					<SimpleData name="coorde_x">-74.9289355804236</SimpleData>
+					<SimpleData name="coorde_y">4.17232568263726</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92893558042356,4.172325682637252,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PP087</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">13</SimpleData>
+					<SimpleData name="coorde_x">-74.9283426136541</SimpleData>
+					<SimpleData name="coorde_y">4.17198966813458</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92834261365412,4.17198966813459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PA080</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">18</SimpleData>
+					<SimpleData name="coorde_x">-74.9283781916603</SimpleData>
+					<SimpleData name="coorde_y">4.1734602257228</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92837819166027,4.173460225722812,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL091</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">1</SimpleData>
+					<SimpleData name="coorde_x">-74.9295206409694</SimpleData>
+					<SimpleData name="coorde_y">4.17310049254934</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92951944444445,4.173100000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL090</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap102</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_POSTES_AREA_PECUARIA_ISS">
+					<SimpleData name="id_2">11</SimpleData>
+					<SimpleData name="coorde_x">-74.9294297193981</SimpleData>
+					<SimpleData name="coorde_y">4.1727170407051</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.92942971939809,4.172717040705085,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PP049</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#pointStyleMap1020</styleUrl>
+			<Point>
+				<coordinates>-74.928552,4.172403,356.2</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

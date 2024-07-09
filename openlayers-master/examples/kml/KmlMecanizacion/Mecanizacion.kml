@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Mecanizacion.kml</name>
+	<Schema name="Areas 1" id="S_Areas_1_IDS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Nombre"><displayName>&lt;b&gt;Nombre&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor10">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Areas 1/id_2]</td></tr>
+  <tr><td><b>Area</b></td><td>$[Areas 1/Area]</td></tr>
+  <tr><td><b>Nombre</b></td><td>$[Areas 1/Nombre]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffe20000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64ff5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor11">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Areas 1/id_2]</td></tr>
+  <tr><td><b>Area</b></td><td>$[Areas 1/Area]</td></tr>
+  <tr><td><b>Nombre</b></td><td>$[Areas 1/Nombre]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffe20000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>64ff5500</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Mecanizacion</name>
+		<Placemark>
+			<styleUrl>#falseColor1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Areas_1_IDS">
+					<SimpleData name="id_2">2</SimpleData>
+					<SimpleData name="Area">0.2208</SimpleData>
+					<SimpleData name="Nombre">Mecanizacion</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92927901980984,4.170696259060827,0 -74.92927725508041,4.170735083108923,0 -74.92926789447927,4.170872196208357,0 -74.92926789594777,4.170894647524803,0 -74.92926699606929,4.170915577148757,0 -74.92926783951869,4.17093561339426,0 -74.92926401960946,4.171051263803629,0 -74.92976755574837,4.171063616909847,0 -74.92976990872097,4.170707141559129,0 -74.92927901980984,4.170696259060827,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Areas_1_IDS">
+					<SimpleData name="id_2">21</SimpleData>
+					<SimpleData name="Area">0.0244</SimpleData>
+					<SimpleData name="Nombre">Herramientas</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92925129885127,4.170567443001647,0 -74.92900989856739,4.170563610229827,0 -74.92900872208108,4.170645670149686,0 -74.92924578407173,4.170648905487004,0 -74.92925129885127,4.170567443001647,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Areas_1_IDS">
+					<SimpleData name="id_2">25</SimpleData>
+					<SimpleData name="Area">0.0306</SimpleData>
+					<SimpleData name="Nombre">Ambiente Formacion</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92925434691945,4.170733524523702,0 -74.92901197542942,4.170731165677024,0 -74.9290107960061,4.17083259608166,0 -74.92925434691945,4.170834954928258,0 -74.92925434691945,4.170733524523702,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Areas_1_IDS">
+					<SimpleData name="id_2">23</SimpleData>
+					<SimpleData name="Area">0.0487</SimpleData>
+					<SimpleData name="Nombre">Ambiente Formacion</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.92868217918652,4.170820654420639,0 -74.92830196259727,4.1708323012258,0 -74.92830903913715,4.170939039035271,0 -74.92868321118193,4.170921052829826,0 -74.92868217918652,4.170820654420639,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
